@@ -19,8 +19,6 @@ jQuery(document).ready(function($) {
 
   "use strict";
 
-
-
   var siteMenuClone = function() {
 
     $('.js-clone-nav').each(function() {
