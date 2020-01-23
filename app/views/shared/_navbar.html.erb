@@ -1,34 +1,6 @@
 
 <!-- *** navbar_prk *** -->
 
-<script>
-    // Icon on navbar
-
-  //let iconOnNavbar = `<img src="images/us-flag.png" alt="logo" width="20px" height="20px">`;
-  let iconOnNavbar =  `<%= image_tag 'us-flag.png', alt: 'logo', width: 20, height: 20 %>`;
-
-  //let frFlag = `<img src="images/fr-flag.png" alt="logo" width="20px" height="20px">`;
-  let frFlag = `<%= image_tag 'fr-flag.png', alt: 'logo', width: 20, height: 20 %>`;
-
-  //let usFlag = `<img src="images/us-flag.png" alt="logo" width="20px" height="20px">`;
-  let usFlag = `<%= image_tag 'us-flag.png', alt: 'logo', width: 20, height: 20 %>`;
-
-  if (window.location.href.includes('-fr.html')) {
-    iconOnNavbar = frFlag;
-  }
-
-  // French
-
-  let websiteLocationFr = window.location.href;
-  if (websiteLocationFr.includes('-fr')) {
-    websiteLocationFr = window.location.href.replace('-fr','');
-  }
-  else {
-    websiteLocationFr = window.location.href.replace('.html','-fr.html');
-  }
-
-</script>
-
 <div class="site-mobile-menu site-navbar-target">
     <div class="site-mobile-menu-header">
       <div class="site-mobile-menu-close mt-3">
@@ -77,9 +49,12 @@
               </li>
               <hr />
               <li class="has-children" id="flagOnNavbar">
-                <a class="nav-link"><%= image_tag 'fr-flag.png', alt: 'logo', width: 20, height: 20 %></i></a>
+                <a class="nav-link"><%= image_tag 'fr-flag.png', alt: 'logo', width: 20, height: 20 %></a>
                 <ul id="flags" class="dropdown">
-                  <li><a id="flags" href=${websiteLocationFr}>${usFlag} ${frFlag}</a></li>
+                  <li>
+                    <a class="nav-link"><%= image_tag 'fr-flag.png', alt: 'logo', width: 20, height: 20 %></a>
+                    <a class="nav-link"><%= image_tag 'us-flag.png', alt: 'logo', width: 20, height: 20 %></a>
+                  </li>
                 </ul>
               </li>
             </ul>
