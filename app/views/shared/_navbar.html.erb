@@ -1,3 +1,100 @@
+
+<!-- *** navbar_prk *** -->
+
+<script>
+    // Icon on navbar
+
+  //let iconOnNavbar = `<img src="images/us-flag.png" alt="logo" width="20px" height="20px">`;
+  let iconOnNavbar =  `<%= image_tag 'us-flag.png', alt: 'logo', width: 20, height: 20 %>`;
+
+  //let frFlag = `<img src="images/fr-flag.png" alt="logo" width="20px" height="20px">`;
+  let frFlag = `<%= image_tag 'fr-flag.png', alt: 'logo', width: 20, height: 20 %>`;
+
+  //let usFlag = `<img src="images/us-flag.png" alt="logo" width="20px" height="20px">`;
+  let usFlag = `<%= image_tag 'us-flag.png', alt: 'logo', width: 20, height: 20 %>`;
+
+  if (window.location.href.includes('-fr.html')) {
+    iconOnNavbar = frFlag;
+  }
+
+  // French
+
+  let websiteLocationFr = window.location.href;
+  if (websiteLocationFr.includes('-fr')) {
+    websiteLocationFr = window.location.href.replace('-fr','');
+  }
+  else {
+    websiteLocationFr = window.location.href.replace('.html','-fr.html');
+  }
+
+</script>
+
+<div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+  <header class="site-navbar py-3 js-site-navbar site-navbar-target" role="banner" id="site-navbar">
+    <div class="container">
+      <div class="desktop-nav">
+        <div class="site-logo">
+          <a href="" class="nav-link">
+            <%= image_tag 'logo_blank.png', alt: 'logo' %>
+          </a>
+        </div>
+        <div class="col-12 col-md-10 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-center" role="navigation">
+            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+
+              <li class="has-children" id="one_bar">
+                <a href="#section-about" class="nav-link">A propos</a>
+                <ul class="dropdown">
+                  <li><a href="#section-about" class="nav-link">Ship Antiques</a></li>
+                  <li><a href="#section-specialites" class="nav-link">Nos spécialités</a></li>
+                  <li><a href="#section-how-it-works" class="nav-link">Nos clients</a></li>
+                </ul>
+              </li>
+
+              <li class="has-children" id="two_bar">
+                <a href="#section-services" class="nav-link">Services</a>
+                <ul class="dropdown">
+                  <li><a href="#section-services" class="nav-link">Enlevement, Livraison et Manutention</a></li>
+                  <li><a href="#section-services" class="nav-link">Stockage et Gestion de Stock</a></li>
+                  <li><a href="#section-services" class="nav-link">Gestion administrative : Documentation, Douane et Assurances</a></li>
+                  <li><a href="#section-services" class="nav-link">Transport Multimodal</a></li>
+                </ul>
+              </li>
+
+              <li class="has-children" id="three_bar">
+                <a href="#section-contact" class="nav-link">Contacts & Cotations</a>
+                <ul class="dropdown">
+                  <li><a href="#section-contact" class="nav-link">Infos Pratiques</a></li>
+                  <li><a href="#section-contact" class="nav-link">Nous rejoindre</a></li>
+                </ul>
+              </li>
+              <hr />
+              <li class="has-children" id="flagOnNavbar">
+                <a class="nav-link">${iconOnNavbar}</i></a>
+                <ul id="flags" class="dropdown">
+                  <li><a id="flags" href=${websiteLocationFr}>${usFlag} ${frFlag}</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" id="hamburger">
+          <span class="icon-menu h3 site-menu-toggle js-menu-toggle"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<!-- *** navbar_wagon *** -->
+<!-- 
+
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <%= link_to "#", class: "navbar-brand" do %>
     <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
@@ -32,4 +129,4 @@
       <% end %>
     </ul>
   </div>
-</div>
+</div> -->

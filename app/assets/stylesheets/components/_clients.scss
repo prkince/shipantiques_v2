@@ -1,0 +1,16 @@
+ .clients {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.client {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+
+@media(max-width: 768px) {
+  .clients {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}

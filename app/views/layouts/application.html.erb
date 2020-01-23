@@ -3,17 +3,56 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TODO</title>
+    <title>Ship Antiques, French packer and shipper of Fine Arts and Antiques</title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+
+    <!-- Google result text-->
+    <title>Ship Antiques, French packer and shipper of Fine Arts and Antiques</title>
+    <!-- Google result description-->
+    <meta name="description" content="Ship Antiques, French packer and shipper of Fine Arts and Antiques" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149626680-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-149626680-2');
+    </script>
+
+    <!-- Facebook results -->
+    <meta property="og:title" content="Ship Antiques, French packer and shipper of Fine Arts and Antiques">
+    <meta property="og:image" content="facebook-card.jpg">
+    <meta property="og:description" content="Ship Antiques is your best partner for pick up, packing & crating, multimodal shipping and customs clearance all over the world.">
+    <meta property="og:site_name" content="Ship Antiques"/>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="keywords" content="" />
+    <meta name="author" content="Pierrick Delage" />
+
+    <%= csrf_meta_tags %>
+    <%= action_cable_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= stylesheet_pack_tag 'application', media: 'all' %>
+
+    <%= favicon_link_tag asset_path('assets/favicon.ico') %>
+
+    <script src="https://kit.fontawesome.com/7cb59a042f.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
     <%= yield %>
 
+    <%= render 'shared/footer' %>
     <%= javascript_pack_tag 'application' %>
   </body>
+
 </html>
