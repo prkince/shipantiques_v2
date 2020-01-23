@@ -7,7 +7,7 @@
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <%= stylesheet_pack_tag 'application', media: 'all' %>
 
     <!-- Google result text-->
     <title>Ship Antiques, French packer and shipper of Fine Arts and Antiques</title>
@@ -36,13 +36,12 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Pierrick Delage" />
 
-    <%= csrf_meta_tags %>
-    <%= action_cable_meta_tag %>
-    <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%= stylesheet_pack_tag 'application', media: 'all' %>
-
     <%= favicon_link_tag asset_path('assets/favicon.ico') %>
 
+    <!--     AOS ANIMATION ON SCROLL -->    
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"> </script>
+    
     <script src="https://kit.fontawesome.com/7cb59a042f.js" crossorigin="anonymous"></script>
 
   </head>
