@@ -51,7 +51,7 @@ hr {
   cursor: pointer;
 }
 
-/* Navbar */
+/* Navbar desktop */
 
 .desktop-nav {
   display: flex;
@@ -259,6 +259,8 @@ hr {
     .site-navbar.scrolled .site-logo a {
       color: #000 !important; }
 
+/* Navbar desktop */
+
 .site-mobile-menu {
   width: 300px;
   position: fixed;
@@ -351,8 +353,7 @@ hr {
       .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
         font-size: 12px;
         z-index: 20;
-        font-family: "icomoon";
-        content: "\f078";
+        content: "^";
         position: absolute;
         top: 50%;
         left: 50%;
@@ -403,21 +404,3 @@ hr {
         width: auto; }
         .site-mobile-menu .site-nav-wrap[data-class="social"] > li:first-child a {
           padding-left: 15px !important; }
-
-
-
-
-// *** navbar_wagon ***
-
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
