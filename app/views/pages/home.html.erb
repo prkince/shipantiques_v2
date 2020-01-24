@@ -5,9 +5,9 @@
 
 <div class="site-blocks-cover overlay" data-aos="fade" data-stellar-background-ratio="0.5" id="section-home">
   <div class="container-home">
-    <div class="index-text" data-aos="fade-up">
+    <div data-aos="fade-up">
       <div id='logo_and_text'>
-        <div class='one da'>
+        <div class='one'>
         <%= image_tag "logo_blank.png", alt: "logo" %>
         </div>
         <div class='two'>
@@ -79,7 +79,7 @@
       <div class="card-product-infos">
         <h2>Puces de St Ouen, les services dédiés</h2>
         <p class="mb-3">Nous sommes à la disposition de nos clients, marchands et acheteurs, tous les weekends d’ouverture.</p>
-        <p><a href="specialites-fr.html">En savoir plus</a></p>
+        <p> <%= link_to "En savoir plus", specialites_path %></p>
       </div>
     </div>
 
@@ -88,7 +88,7 @@
       <div class="card-product-infos">
         <h2>Projet boutique</h2>
         <p class="mb-3">Ce service, est dédié aux professionnels de la décoration : décorateurs, entreprises développant des réseaux de boutiques ou spécialisé dans l’évènementiel et les projets.</p>
-        <p><a href="specialites-fr.html">En savoir plus</a></p>
+        <p> <%= link_to "En savoir plus", specialites_path %></p>
       </div>
     </div>
 
@@ -97,7 +97,7 @@
       <div class="card-product-infos">
         <h2>Foires / Expositions / Musées</h2>
         <p class="mb-3">Service destiné aux professionnels, antiquaires, galeristes français ou étrangers, ainsi que les musées.</p>
-        <p><a href="specialites-fr.html">En savoir plus</a></p>
+        <p> <%= link_to "En savoir plus", specialites_path %></p>
       </div>
     </div>
   </div>
@@ -177,7 +177,7 @@
           <div>
             <h3>Enlevement, livraison et manutention</h3>
             <p style="text-align: justify;">Nos équipes de chauffeurs/ripeurs ont l’expérience de la manipulation et du transport des marchandises fragiles non emballées.</p>
-            <p><a href="services-fr.html">En savoir plus</a></p>
+            <p> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>
@@ -188,7 +188,7 @@
           <div>
             <h3>Protection et emballage</h3>
             <p style="text-align: justify;">Tous nos emballages sont effectués en internes par nos équipes de layetiers/emballeurs dans notre atelier de Roissy/CDG.</p>
-            <p><a href="services-fr.html">En savoir plus</a></p>
+            <p> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>
@@ -199,7 +199,7 @@
           <div>
             <h3>Stockage et gestion de stock</h3>
             <p style="text-align: justify;">Nous proposons différentes solutions fonction de vos types d’emballages et de produits. Nous pouvons stocker en particulier de la marchandise sans emballage en toute sécurité.</p>
-            <p><a href="services-fr.html">En savoir plus</a></p>
+            <p> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>
@@ -211,7 +211,7 @@
           <div>
             <h3>Gestion administrative : documentation, douane et assurances</h3>
             <p style="text-align: justify;">Notre expertise nous permet de gérer pour le compte de nos clients les documents d’accompagnements nécessaires au bon déroulement des chaines logistiques.</p>
-            <p><a href="services-fr.html">En savoir plus</a></p>
+            <p> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>       
@@ -222,7 +222,7 @@
           <div>
             <h3>Transports Multimodal</h3>
             <p style="text-align: justify;">SHIP ANTIQUES met à disposition de ses clients une large palette de solutions de transport à choisir fonction du type de marchandise, de la destination et du volume.</p>
-            <p><a href="services-fr.html">En savoir plus</a></p>
+            <p> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>

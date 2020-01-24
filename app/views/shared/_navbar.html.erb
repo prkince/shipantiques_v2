@@ -14,38 +14,36 @@
     <div class="container">
       <div class="desktop-nav">
         <div class="site-logo">
-          <a href="" class="nav-link">
-            <%= image_tag 'logo_blank.png', alt: 'logo' %>
-          </a>
+          <%= link_to image_tag('logo_blank.png', alt: "logo"), root_path %>
         </div>
         <div class="col-12 col-md-10 d-none d-xl-block">
           <nav class="site-navigation position-relative text-center" role="navigation">
             <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
 
               <li class="has-children" id="one_bar">
-                <a href="#section-about" class="nav-link">A propos</a>
+                <%= link_to "A propos", root_path(:anchor => "section-about"), class: "nav-link"  %>
                 <ul class="dropdown">
-                  <li><a href="#section-about" class="nav-link">Ship Antiques</a></li>
-                  <li><a href="#section-specialites" class="nav-link">Nos spécialités</a></li>
-                  <li><a href="#section-clients" class="nav-link">Nos clients</a></li>
+                  <li><%= link_to "Ship Antiques", root_path(:anchor => "section-about"), class: "nav-link"  %></li>
+                  <li><%= link_to "Nos spécialités", specialites_path %></li>
+                  <li><%= link_to "Nos clients", root_path(:anchor => "section-clients"), class: "nav-link"  %></li>
                 </ul>
               </li>
 
               <li class="has-children" id="two_bar">
-                <a href="#section-services" class="nav-link">Services</a>
+                <%= link_to "Services", specialites_path %>
                 <ul class="dropdown">
-                  <li><a href="#section-services" class="nav-link">Enlevement, Livraison et Manutention</a></li>
-                  <li><a href="#section-services" class="nav-link">Stockage et Gestion de Stock</a></li>
-                  <li><a href="#section-services" class="nav-link">Gestion administrative : Documentation, Douane et Assurances</a></li>
-                  <li><a href="#section-services" class="nav-link">Transport Multimodal</a></li>
+                 <li> <%= link_to "Enlevement, Livraison et Manutention", specialites_path(:anchor => "section-specialites"), class: "nav-link"  %> </li>
+                 <li> <%= link_to "Stockage et Gestion de Stock", specialites_path(:anchor => "section-specialites"), class: "nav-link"  %> </li>
+                 <li> <%= link_to "Gestion administrative : Documentation, Douane et Assurances", specialites_path(:anchor => "section-specialites"), class: "nav-link"  %> </li>
+                 <li> <%= link_to "Transport Multimodal", specialites_path(:anchor => "section-specialites"), class: "nav-link"  %> </li>
                 </ul>
               </li>
 
               <li class="has-children" id="three_bar">
-                <a href="#section-contact" class="nav-link">Contacts & Cotations</a>
+                <%= link_to "Contacts & Cotations", contact_path %>
                 <ul class="dropdown">
-                  <li><a href="#section-contact" class="nav-link">Infos Pratiques</a></li>
-                  <li><a href="#section-contact" class="nav-link">Nous rejoindre</a></li>
+                  <li><%= link_to "Infos Pratiques", contact_path %></li>
+                  <li><%= link_to "Nous rejoindre", contact_path %></li>
                 </ul>
               </li>
               <hr />
