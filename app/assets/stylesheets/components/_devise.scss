@@ -1,0 +1,28 @@
+.devise-container {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8rem 2rem 2rem 2rem;
+  	flex-direction: column;
+  	form {
+	  	border: 1px solid;
+	  	flex-direction: column;
+	  	justify-content: center;
+	  	padding: 1rem 1rem 1rem 1rem;
+  	}
+  	background-image: asset-url('boat-containers.jpg');
+  	color: white;
+  	.form-actions {
+		text-align: center;
+		font-weight: 700;
+		.btn {
+			color: white
+		}
+  	}
+  	a {
+  		color: white;
+  		margin-top: 3rem;
+  		border: 1px solid;
+  		padding: 1rem 1rem 1rem 1rem;
+  	}
+}
