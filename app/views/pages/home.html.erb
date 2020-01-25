@@ -66,7 +66,6 @@
 
 <div class="site-section bg-light" id="section-specialites">
   <div class="container">
-    
     <div class="row justify-content-center mb-5" data-aos="fade-up">
       <div class="col-md-7 text-center border-primary">
         <h2 class="mb-0 text-color-ship">Nos Spécialités</h2>
@@ -74,32 +73,41 @@
       </div>
     </div>
 
-    <div class="card-product" data-aos="fade-up" data-aos-delay="100">
-      <%= image_tag "img_3.jpg" %>
-      <div class="card-product-infos">
-        <h2>Puces de St Ouen, les services dédiés</h2>
-        <p class="mb-3">Nous sommes à la disposition de nos clients, marchands et acheteurs, tous les weekends d’ouverture.</p>
-        <p> <%= link_to "En savoir plus", specialites_path %></p>
+    <div class="container-specialites" data-aos="fade-up" data-aos-delay="100">
+      <div class="nos-specialites">
+        <%= image_tag "IMG_2871.jpg" %>
+        <div class="details">
+          <h2 class='text-color-ship'>Puces de St Ouen, les services dédiés</h2>
+          <p>SHIP ANTIQUES est au cœur des puces de St Ouen depuis son origine. Nous sommes ouvert 7 jours sur 7 de 10H à 18H. Nous sommes à la disposition de nos clients, marchands et acheteurs, tous les weekends d’ouverture.</p>
+          <p> <%= link_to "En savoir plus", specialites_path %></p>
+        </div>
       </div>
     </div>
 
-    <div class="card-product" data-aos="fade-up" data-aos-delay="200">
-      <%= image_tag "img_3.jpg" %>
-      <div class="card-product-infos">
-        <h2>Projet boutique</h2>
-        <p class="mb-3">Ce service, est dédié aux professionnels de la décoration : décorateurs, entreprises développant des réseaux de boutiques ou spécialisé dans l’évènementiel et les projets.</p>
-        <p> <%= link_to "En savoir plus", specialites_path %></p>
+    <div class="container-specialites" data-aos="fade-up" data-aos-delay="200">
+      <div class="nos-specialites">
+        <%= image_tag "img_2.jpg" %>
+        <div class="details">
+          <h2 class='text-color-ship'>Projet boutique</h2>
+          <p>Ce service, est dédié aux professionnels de la décoration : décorateurs, entreprises développant des réseaux de boutiques ou spécialisé dans l’évènementiel et les projets.</p>
+          <p> <%= link_to "En savoir plus", specialites_path %></p>
+        </div>
       </div>
     </div>
 
-    <div class="card-product" data-aos="fade-up" data-aos-delay="300">
-      <%= image_tag "img_3.jpg" %>
-      <div class="card-product-infos">
-        <h2>Foires / Expositions / Musées</h2>
-        <p class="mb-3">Service destiné aux professionnels, antiquaires, galeristes français ou étrangers, ainsi que les musées.</p>
-        <p> <%= link_to "En savoir plus", specialites_path %></p>
+    <div class="container-specialites" data-aos="fade-up" data-aos-delay="300">
+      <div class="nos-specialites">
+        <%= image_tag "P1070810.JPG" %>
+        <div class="details">
+          <h2 class='text-color-ship'>Foires / Expositions / Musées</h2>
+          <p>Foire: Service destiné aux professionnels, antiquaires français ou étrangers, nous proposons les mêmes solutions que pour les puces à nos clients sur les foires d’antiquités.</p>
+          <p>Expositions, Evenements musées: Nous sommes présents sur les principales expositions et évènements français. (maison et objet, biennale des antiquaires, paris art fair, asia now, paris photo, PAD, etc.)</p>
+          <p> <%= link_to "En savoir plus", specialites_path %></p>
+        </div>
       </div>
     </div>
+
+
   </div>
 </div>
 
@@ -171,58 +179,58 @@
 
     <div class="row align-items-stretch justify-content-center">
 
-      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100" style="height: 200px;">
         <div class="unit-4 d-flex">
           <div class="unit-4-icon mr-4"><span class="text-color-ship flaticon-map"></span></div>
           <div>
             <h3>Enlevement, livraison et manutention</h3>
             <p style="text-align: justify;">Nos équipes de chauffeurs/ripeurs ont l’expérience de la manipulation et du transport des marchandises fragiles non emballées.</p>
-            <p> <%= link_to "En savoir plus", services_path %></p>
+            <p style="height: 25px; position: absolute; bottom: 20px;"> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200" style="height: 200px;">
         <div class="unit-4 d-flex">
           <div class="unit-4-icon mr-4"><span class="text-color-ship flaticon-wooden"></span></div>
           <div>
             <h3>Protection et emballage</h3>
             <p style="text-align: justify;">Tous nos emballages sont effectués en internes par nos équipes de layetiers/emballeurs dans notre atelier de Roissy/CDG.</p>
-            <p> <%= link_to "En savoir plus", services_path %></p>
+            <p style="height: 25px; position: absolute; bottom: 20px;"> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100" style="height: 200px;">
         <div class="unit-4 d-flex">
           <div class="unit-4-icon mr-4"><span class="text-color-ship flaticon-container"></span></div>
           <div>
             <h3>Stockage et gestion de stock</h3>
             <p style="text-align: justify;">Nous proposons différentes solutions fonction de vos types d’emballages et de produits. Nous pouvons stocker en particulier de la marchandise sans emballage en toute sécurité.</p>
-            <p> <%= link_to "En savoir plus", services_path %></p>
+            <p style="height: 25px; position: absolute; bottom: 20px;"> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>
 
 
-      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100" style="height: 200px;">
         <div class="unit-4 d-flex">
           <div class="unit-4-icon mr-4"><span class="text-color-ship flaticon-computer"></span></div>
           <div>
             <h3>Gestion administrative : documentation, douane et assurances</h3>
             <p style="text-align: justify;">Notre expertise nous permet de gérer pour le compte de nos clients les documents d’accompagnements nécessaires au bon déroulement des chaines logistiques.</p>
-            <p> <%= link_to "En savoir plus", services_path %></p>
+            <p style="height: 25px; position: absolute; bottom: 20px;"> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>       
 
-      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200" style="height: 200px;">
         <div class="unit-4 d-flex">
           <div class="unit-4-icon mr-4"><span class="text-color-ship flaticon-boat-ship"></span></div>
           <div>
             <h3>Transports Multimodal</h3>
             <p style="text-align: justify;">SHIP ANTIQUES met à disposition de ses clients une large palette de solutions de transport à choisir fonction du type de marchandise, de la destination et du volume.</p>
-            <p> <%= link_to "En savoir plus", services_path %></p>
+            <p style="height: 25px; position: absolute; bottom: 20px;"> <%= link_to "En savoir plus", services_path %></p>
           </div>
         </div>
       </div>
