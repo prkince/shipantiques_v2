@@ -4,6 +4,19 @@
 	h2 {
 		text-transform: uppercase;
 		font-weight: 700 !important;
+		margin-bottom: 4rem !important;
 	}
+}
 
+.nous-trouver {
+	display: flex;
+	justify-content: space-between;
+	.address {
+		height: 300px;
+		border:0;
+		width: 40%;
+		flex-direction: column;
+		display: grid;
+		margin-top: 10px;
+	}
 }
