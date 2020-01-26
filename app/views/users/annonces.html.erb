@@ -13,7 +13,7 @@
 <div class="site-section bg-light" id="section-infos">
 	<div class="container">
 		<div id="section-annonces">
-			<button id="upload_widget" class="cloudinary-button">Poster une annonce</button>
+			<button id="upload_widget" class="cloudinary-button">Poster une annonce (format JPEG SVP)</button>
 		</div>
 
 		<style>
@@ -30,9 +30,12 @@
 		<script type="text/javascript">  
 			const myWidget = cloudinary.createUploadWidget({
 			cloudName: 'dovu27lye', 
-			uploadPreset: 'ximjrpxf'}, (error, result) => { 
+			uploadPreset: 'ximjrpxf',
+			format: 'jpg'
+		}, (error, result) => { 
 				if (!error && result && result.event === "success") { 
-			  		console.log('Done! Here is the image info: ', result.info); 
+			  		console.log('Done! Here is the image info: ', result.info);
+			  		alert("L'annonce à bien été publiée");
 			  		window.location.href = "http://www.shipantiques.fr";
 					}
 			})
