@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   get "contact", to: "pages#contact", as: :contact
   get "infos", to: "pages#infos", as: :infos
   get "nous_rejoindre", to: "pages#nous_rejoindre", as: :nous_rejoindre
+  get "cotations", to: "pages#cotations", as: :cotations
 
 end
