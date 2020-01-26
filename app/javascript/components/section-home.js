@@ -6,7 +6,7 @@ const images = ['images/hero_bg_4.jpg',
   'images/P1030827.JPG',
 ];
 
-const imgBackground = document.getElementById("section-home");
+const imgBackground = document.getElementById("section-hom");
 
 function displayImage(x) {
   imgBackground.style.backgroundImage = "url(" + images[x] + ")";
