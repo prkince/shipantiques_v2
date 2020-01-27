@@ -20,7 +20,7 @@
           <nav class="site-navigation position-relative text-center" role="navigation">
             <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
 
-              <li class="has-children" id="one_bar">
+              <li class="has-children">
                 <%= link_to "A propos", root_path(:anchor => "section-about"), class: "nav-link"  %>
                 <ul class="dropdown">
                   <li><%= link_to "Ship Antiques", root_path(:anchor => "section-about"), class: "nav-link"  %></li>
@@ -29,7 +29,7 @@
                 </ul>
               </li>
 
-              <li class="has-children" id="two_bar">
+              <li class="has-children">
                 <%= link_to "Services", services_path %>
                 <ul class="dropdown">
                  <li> <%= link_to "Enlevement, Livraison et Manutention", services_path(:anchor => "section-services"), class: "nav-link"  %> </li>
@@ -39,7 +39,7 @@
                 </ul>
               </li>
 
-              <li class="has-children" id="three_bar">
+              <li class="has-children">
                 <%= link_to "Contacts & Cotations", contact_path %>
                 <ul class="dropdown">
                   <li><%= link_to "Infos Pratiques", infos_path %></li>
@@ -47,13 +47,23 @@
                   <li><%= link_to "Demande de Cotation", cotations_path %></li>
                 </ul>
               </li>
-              <hr />
+
+              <% if user_signed_in? %>
+              <li class="has-children">
+                <%= link_to "Admin", users_annonces_path %>
+                <ul class="dropdown">
+                    <li><%= link_to "Gerer les annonces", users_annonces_path %></li>
+                    <li><%= link_to "Se déconnecter", destroy_user_session_path, method: :delete%></li>
+                </ul>
+              <% end %>
+
               <li class="has-children" id="flagOnNavbar">
-                <a class="nav-link"><%= image_tag 'fr-flag.png', alt: 'logo', width: 20, height: 20 %></a>
+                <a class="nav-link first-flag"><%= image_tag 'fr-flag.png', alt: 'logo', width: 20, height: 20 %></a>
                 <ul id="flags" class="dropdown">
                   <li>
                     <a class="nav-link"><%= image_tag 'fr-flag.png', alt: 'logo', width: 20, height: 20 %></a>
                     <a class="nav-link"><%= image_tag 'us-flag.png', alt: 'logo', width: 20, height: 20 %></a>
+                    <li><%= link_to "Sign In", new_user_session_path %></li>
                   </li>
                 </ul>
               </li>

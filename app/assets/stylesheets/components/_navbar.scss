@@ -1,47 +1,6 @@
 
 // *** navbar_prk ***
 
-/* Adding animation below text*/
-
-
-#one_bar:hover ~ hr {
-  margin-left: 24%;
-  background-color: #2F98F3;
-}
-
-.site-navbar.scrolled hr {
-    height: 2px;
-    width: 78px;
-    margin: 0;
-    background: black;
-    border: none;
-    transition: .3s ease-in-out;
-    margin-left: 24%;
-    margin-top: -19px;
-}
-
-#two_bar:hover ~ hr {
-  margin-left: 38%;
-  width: 76px;
-  background-color: #2F98F3;
-}
-
-#three_bar:hover ~ hr {
-  margin-left: 53%;
-  width: 181px;
-  background-color: #2F98F3;
-}
-
-hr {
-  height: 2px;
-  width: 78px;
-  margin: 0;
-  background: white;
-  border: none;
-  transition: .3s ease-in-out;
-  margin-left: 24%;
-  margin-top: -19px;
-}
 
 /* Navbar Hamburger*/
 
@@ -143,6 +102,9 @@ hr {
         position: absolute;
         right: -30px;
         top: 0px;
+        .first-flag img {
+          margin-left: 22px;
+        }
       }
 
       .site-navbar .site-navigation .site-menu .has-children .dropdown {
