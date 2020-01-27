@@ -19,7 +19,7 @@
 		</div>
 
 	    <div class="annonce-ship">
-	      <% results = Cloudinary::Api.resources(type:"upload",prefix:"Annonces/") %>
+	      <% results = Cloudinary::Api.resources(type:"upload",prefix:"Annonces/", cloudName: 'shipantiques') %>
 	      <% results['resources'].each do |resource| %>
 	        <%= cl_image_tag(resource['secure_url'], :crop => :fill) %>
 	      <%end %>   
