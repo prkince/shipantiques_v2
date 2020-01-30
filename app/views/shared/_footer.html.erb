@@ -10,10 +10,10 @@
         <div class="footer-2">
           <h2 class="footer-heading mb-4">Liens</h2>
           <ul class="list-unstyled">
-            <li><a href="#section-about">A propos</a></li>
-            <li><a href="#section-services">Services</a></li>
-            <li><a href="#section-clients">Clients</a></li>
-            <li><a href="#section-contact">Contactez-nous</a></li>
+            <li><%= link_to "A propos", root_path(:anchor => "section-about")   %></li>
+            <li> <%= link_to "Services", services_path %> </li>
+            <li><%= link_to "Nos clients", root_path(:anchor => "section-clients")   %></li>
+            <li> <%= link_to "Infos Pratiques", infos_path   %> </li>
           </ul>
         </div>
 
