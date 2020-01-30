@@ -22,9 +22,25 @@
     </div>
     <div class="annonce-ship">
       <% results = Cloudinary::Api.resources(type:"upload",prefix:"Annonces/") %>
-      <%results['resources'].each do |resource| %>
-        <%= cl_image_tag(resource['secure_url'], :crop => :fill) %>
-      <%end %>   
+      <% if results['resources'].empty? %>
+        <div class="container-specialites">
+          <div class="row align-items-stretch justify-content-center">
+            <div class="col-md-6 col-lg-10 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="unit-4 d-flex">      
+                <div>
+                  <p style="text-align: justify">Nous encourageons la prise de responsabilité, l’épanouissement des talents et favorisons l’évolution des carrières au sein de l’entreprise. <p>
+                  <p style="text-align: justify">Rejoindre Ship Antiques, c’est rejoindre une société dynamique, tournée vers l’innovation et offrant des défis motivants. Dans un esprit d’ouverture, de respect, d’initiative, nous vous invitons à venir partager avec nous votre goût des challenges et des succès.</p>
+                  <p style="text-align: justify">Vous pouvez nous adresser votre candidature <a href="mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#115;&#104;&#105;&#112;&#097;&#110;&#116;&#105;&#113;&#117;&#101;&#115;&#046;&#102;&#114;">en cliquant ici.</a> </p>                       
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% else %>
+        <%results['resources'].each do |resource| %>
+          <%= cl_image_tag(resource['secure_url'], :crop => :fill) %>
+        <%end %>   
+      <% end %>
   	</div>
   </div>
 </div>

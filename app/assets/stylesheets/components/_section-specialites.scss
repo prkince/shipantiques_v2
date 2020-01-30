@@ -1,6 +1,5 @@
 .container-specialites {
-  background: white;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   h2 {
     text-transform: uppercase;
     margin-bottom: 1rem !important;
@@ -8,9 +7,12 @@
 }
 
 .nos-specialites {
+  background: white;
   display: flex;
   justify-content: space-between;
   height: 300px;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   .details {
     border:0;
     width: 70%;

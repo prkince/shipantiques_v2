@@ -31,11 +31,16 @@
 
 <div class="site-section" id="section-about">
   <div class="container">
+      <div class="row justify-content-center mb-5" data-aos="fade-up">
+        <div class="col-md-7 text-center border-primary">
+          <h2 class="mb-0 text-color-ship">A propos</h2>
+          <p class="color-black-opacity-5"></p>
+        </div>
+      </div>
     <div class="row mb-5" >
 
-      <div class="col-md-7 order-md-1" data-aos="fade-up">
-        <div class="text-left pb-1 border-primary mb-4">
-          <h2 class="text-color-ship">A propos</h2>
+      <div class="col-md-7 order-md-1" data-aos="fade-up" data-aos-delay="100">
+        <div class="text-left pb-1mb-4">
         </div>
         <p style="text-align: justify;"><b><i>SHIP ANTIQUES</i></b> est un commissionnaire de transport international spécialisée dans les antiquités, les œuvres d’art et les objets fragiles.</p>
         <p style="text-align: justify;">Nous sommes situés au cœur des puces de St Ouen, plus grand marché dédié aux antiquités dans le monde pour la partie administrative et commerciale.</p>
@@ -73,39 +78,43 @@
       </div>
     </div>
 
+
+<%= link_to specialites_path(:anchor => "specialites-puces") do %>
     <div class="container-specialites" data-aos="fade-up" data-aos-delay="100">
       <div class="nos-specialites">
         <%= image_tag "IMG_2871.jpg" %>
         <div class="details">
           <h2 class='text-color-ship'>Puces de St Ouen, les services dédiés</h2>
-          <p>SHIP ANTIQUES est au cœur des puces de St Ouen depuis son origine. Nous sommes ouvert 7 jours sur 7 de 10H à 18H. Nous sommes à la disposition de nos clients, marchands et acheteurs, tous les weekends d’ouverture.</p>
-          <p> <%= link_to "En savoir plus", specialites_path %></p>
+          <p style="color: black">SHIP ANTIQUES est au cœur des puces de St Ouen depuis son origine. Nous sommes ouvert 7 jours sur 7 de 10H à 18H. Nous sommes à la disposition de nos clients, marchands et acheteurs, tous les weekends d’ouverture.</p>
         </div>
       </div>
     </div>
+<% end %>
 
+<%= link_to specialites_path(:anchor => "specialites-boutique") do %>
     <div class="container-specialites" data-aos="fade-up" data-aos-delay="200">
       <div class="nos-specialites">
         <%= image_tag "img_2.jpg" %>
         <div class="details">
           <h2 class='text-color-ship'>Projet boutique</h2>
-          <p>Ce service, est dédié aux professionnels de la décoration : décorateurs, entreprises développant des réseaux de boutiques ou spécialisé dans l’évènementiel et les projets.</p>
-          <p> <%= link_to "En savoir plus", specialites_path %></p>
+          <p style="color: black">Ce service, est dédié aux professionnels de la décoration : décorateurs, entreprises développant des réseaux de boutiques ou spécialisé dans l’évènementiel et les projets.</p>
         </div>
       </div>
     </div>
+<% end %>
 
+<%= link_to specialites_path(:anchor => "specialites-foires") do %>
     <div class="container-specialites" data-aos="fade-up" data-aos-delay="300">
       <div class="nos-specialites">
         <%= image_tag "P1070810.JPG" %>
         <div class="details">
           <h2 class='text-color-ship'>Foires / Expositions / Musées</h2>
-          <p>Foire: Service destiné aux professionnels, antiquaires français ou étrangers, nous proposons les mêmes solutions que pour les puces à nos clients sur les foires d’antiquités.</p>
-          <p>Expositions, Evenements musées: Nous sommes présents sur les principales expositions et évènements français. (maison et objet, biennale des antiquaires, paris art fair, asia now, paris photo, PAD, etc.)</p>
-          <p> <%= link_to "En savoir plus", specialites_path %></p>
+          <p style="color: black">Foire: Service destiné aux professionnels, antiquaires français ou étrangers, nous proposons les mêmes solutions que pour les puces à nos clients sur les foires d’antiquités.</p>
+          <p style="color: black">Expositions, Evenements musées: Nous sommes présents sur les principales expositions et évènements français. (maison et objet, biennale des antiquaires, paris art fair, asia now, paris photo, PAD, etc.)</p>
         </div>
       </div>
     </div>
+<% end %>
 
 
   </div>
