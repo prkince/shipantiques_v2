@@ -1,4 +1,4 @@
-.container-specialites {
+.container-specialites-home {
   padding: 1rem 2rem 1rem 2rem;
   h2 {
     text-transform: uppercase;
@@ -21,7 +21,6 @@
     margin: 1rem 2rem 1rem 2rem;
     p {
         text-align: justify;
-
     }
     a {
       height: 25px;
@@ -29,9 +28,43 @@
       bottom: 3rem;
     }
   }
-  img {
-    height: 100%;
-    width: 280px;
-    object-fit: cover;
-  }
 }
+
+@media(max-width: 1000px) {
+
+  .container-specialites-home {
+    padding: 1rem 1rem 1rem 1rem;
+    h2 {
+      text-transform: uppercase;
+      margin-bottom: 1rem !important;
+      text-align: center;
+    }
+    .nos-specialites {
+      height: auto;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 20px 0px 20px 0px;
+      padding: 20px 10px 20px 10px;
+      .specialite-img {
+        margin: auto;
+      }
+      .details {
+        flex-direction: column;
+        display: grid;
+        margin: 1rem 2rem 1rem 2rem;
+        width: 90%;
+        p {
+            text-align: justify;
+        }
+        a {
+          height: 25px;
+          position: absolute;
+          bottom: 3rem;
+        }
+        }
+
+      }
+    }
+  }

@@ -19,7 +19,6 @@
 	grid-gap: 16px;
 	padding: 15% 10px 10px 10px;
 	.one {
-		width: 15%;
 		img {
 			position: absolute;
 			top: 50%;
@@ -69,4 +68,36 @@
   60% {
     transform: translateY(-15px);
   }
+}
+
+
+@media(max-width: 900px) {
+  .arrow-bounce {
+  	a img {
+  		visibility: hidden;
+  	}
+  }
+
+  #logo_and_text {
+  	top: 110px;
+  	height: calc(100vh);
+	display: flex;
+	flex-direction: column;
+	padding: 110px 10px 10px 10px;
+	.one {
+		img {
+			visibility: hidden;
+		}
+	}
+	.two {
+		.dark {
+			backdrop-filter: grayscale(1);
+			padding: 30px 20px 20px 20px;
+		}
+		p {
+			font-size: 15px!important;
+			text-align: justify;
+		}
+	}
+}
 }
