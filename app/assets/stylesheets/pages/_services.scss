@@ -1,0 +1,33 @@
+
+.container-specialites {
+	#services-description {
+		display: flex;
+		flex-direction: column;
+		.unit-4-icon {
+			text-align: center;
+
+		}
+		i {
+			margin-bottom: 2rem;
+			margin-right: -1.5rem!important;
+		}
+
+	}
+}
+@media(max-width: 800px) {
+  .container-specialites {
+  	#services-description {
+  		display: flex;
+  		flex-direction: column;
+  		.unit-4-icon {
+  			text-align: center;
+
+  		}
+  		i {
+  			margin-bottom: 2rem;
+  			margin-right: -1.5rem!important;
+  		}
+
+  	}
+  }
+}
