@@ -12,12 +12,22 @@
 
 
 <div align="center">
-  <h3>Send A message to Us</h3>
 
   <%= simple_form_for @cotation, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
+    <%= f.input :name, :required => true, label: "Votre Nom"  %>
     <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
+    <%= f.input :company, label: "Nom de votre société" %>
+    <%= f.input :tel, label: "Téléphone" %>
+    <%= f.input :choices, as: :check_boxes, collection: Cotation::CHOICES, label: "Vous êtes :" %>
+    <%= f.input :oeuvres, as: :file, input_html: { multiple: true }, label: "Description des oeuvres"%>
+    <%= f.input :type, as: :check_boxes, collection: Cotation::DEMANDES, label: "Type de demande :" %>
+    <%= f.input :address_enl, label: "Adresse (addresse de l'opération ou adresse d'enlèvement des oeuvres si applicable)" %>
+    <%= f.input :address_liv, label: "Adresse 2 (addresse de l'opération ou adresse d'enlèvement des oeuvres si applicable)" %>
+    <%= f.input :description_oeuvres, :as => :text, label: "Brève description des oeuvres (quantité, dimensions, matière, artiste, valeur d'assurance" %>
+    <%= f.input :description_prestation, :as => :text, label: "Brève description de la prestation demandée" %>
+    <%= f.label :date, label: "Dates demandées pour la prestation"   %>
+    <%= f.input :date_depart, as: :date, label: "Date de départ de la prestation" %>
+    <%= f.input :date_fin, as: :date, label: "Dates de fin de la prestation" %>
     <div class= "hidden">
       <%= f.input :nickname, :hint => 'Leave this field blank!' %>
     </div>
