@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources "cotations", only: [:new, :create]
+
   get 'users/annonces'
   post 'users/annonces', to: 'users#annonces'
 
@@ -11,7 +13,8 @@ Rails.application.routes.draw do
   get "contact", to: "pages#contact", as: :contact
   get "infos", to: "pages#infos", as: :infos
   get "nous_rejoindre", to: "pages#nous_rejoindre", as: :nous_rejoindre
-  get "cotations", to: "pages#cotations", as: :cotations
   get "mentions_legales", to: "pages#mentions_legales", as: :mentions_legales
+
+  resources "cotations", only: [:new, :create]
 
 end
