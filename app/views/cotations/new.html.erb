@@ -11,7 +11,7 @@
 </div>
 
 
-<div align="center">
+<div class="cotation-container" align="center">
 
   <%= simple_form_for @cotation, :html => {:class => 'form-horizontal' } do |f| %>
     <%= f.input :name, :required => true, label: "Votre Nom"  %>
@@ -27,7 +27,7 @@
     <%= f.input :description_prestation, :as => :text, label: "Brève description de la prestation demandée" %>
     <%= f.label :date, label: "Dates demandées pour la prestation"   %>
     <%= f.input :date_depart, as: :date, label: "Date de départ de la prestation" %>
-    <%= f.input :date_fin, as: :date, label: "Dates de fin de la prestation" %>
+    <%= f.input :date_fin, as: :date, label: "Date de fin de la prestation" %>
     <div class= "hidden">
       <%= f.input :nickname, :hint => 'Leave this field blank!' %>
     </div>
