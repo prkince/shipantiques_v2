@@ -21,7 +21,13 @@
             <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
 
               <li class="has-children">
-                <%= link_to "A propos", root_path(:anchor => "section-about"), class: "nav-link"  %>
+                <% if current_page?(root_path) %>
+                  <div class="navbar-middle-button active">
+                <% else %>
+                  <div class="navbar-middle-button">
+                <% end %>
+                    <%= link_to "A propos", root_path(:anchor => "section-about")  %>
+                  </div>
                 <ul class="dropdown">
                   <li><%= link_to "Ship Antiques", root_path(:anchor => "section-about"), class: "nav-link"  %></li>
                   <li><%= link_to "Nos spécialités", specialites_path %></li>
@@ -30,7 +36,13 @@
               </li>
 
               <li class="has-children">
-                <%= link_to "Services", services_path %>
+                <% if current_page?(services_path) %>
+                  <div class="navbar-middle-button active">
+                <% else %>
+                  <div class="navbar-middle-button">
+                <% end %>
+                  <%= link_to "Services", services_path %>
+                </div> 
                 <ul class="dropdown">
                  <li> <%= link_to "Enlevement, Livraison et Manutention", services_path(:anchor => "services-enlevement"), class: "nav-link"  %> </li>
                  <li> <%= link_to "Protection et emballage", services_path(:anchor => "services-protection"), class: "nav-link"  %> </li>                 
@@ -41,7 +53,13 @@
               </li>
 
               <li class="has-children">
-                <%= link_to "Contacts & Cotations", infos_path %>
+                <% if current_page?(infos_path) %>
+                  <div class="navbar-middle-button active">
+                <% else %>
+                  <div class="navbar-middle-button">
+                <% end %>
+                  <%= link_to "Contacts & Cotations", infos_path %>
+                </div>
                 <ul class="dropdown">
                   <li><%= link_to "Infos Pratiques", infos_path %></li>
                   <li><%= link_to "Nous rejoindre", nous_rejoindre_path %></li>
