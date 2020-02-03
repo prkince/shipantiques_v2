@@ -1,6 +1,52 @@
 
 // *** navbar_prk ***
 
+/* Navbar active */
+
+.desktop-nav .has-children .navbar-middle-button {
+  border-right: 0px;
+  transition: box-shadow 0.3s;
+
+  a {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    transition: all .3s ease-in;
+
+    &:hover:after {
+      width: 100%;
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      left: 0px;
+      width: 0;
+      height: 2px;
+      bottom: -7px;
+      background-color: #118DD2;
+      transition: all .3s ease-in;
+    }
+  }
+
+  &.active a:after {
+    position: absolute;
+    content: "";
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    bottom: -7px;
+    background-color: #118DD2;
+    transition: all .3s ease-in;
+  }
+
+
+  &:hover a,
+  &.active a {
+    color: #118DD2;
+  }
+
+}
 
 /* Navbar Hamburger*/
 
@@ -25,7 +71,7 @@
   z-index: 1999;
   position: absolute;
   width: 100%;
-  font-weight: 700; }
+  font-weight: 900; }
   .site-navbar.transparent {
     background: transparent; }
   .site-navbar.absolute {
@@ -51,6 +97,9 @@
       width: 60px;
       vertical-align: middle;
       margin-top: 8px;
+      @media(max-width: 600px) {
+        margin-left: 42%
+      }
     }
   .site-navbar .site-menu-toggle {
     color: #fff; }
@@ -214,11 +263,13 @@
       color: #2F98F3; }
     .site-navbar.scrolled .site-navigation .site-menu li a {
       color: #000; }
+    .site-navbar.scrolled .site-navigation .site-menu .active a {
+      color: #2F98F3; }
       .site-navbar.scrolled .site-navigation .site-menu li a.active {
         color: #2F98F3; }
       .site-navbar.scrolled .site-navigation .site-menu li a:hover {
         color: #2F98F3; }
-    .site-navbar.scrolled .site-logo a {
+      .site-navbar.scrolled .site-logo a {
       color: #000 !important; }
 
 /* Navbar desktop */
