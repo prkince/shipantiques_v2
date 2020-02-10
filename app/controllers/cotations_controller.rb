@@ -8,7 +8,25 @@ class CotationsController < ApplicationController
 	def create
 		@cotation = Cotation.new(params[:cotation])
 		@cotation.request = request
-		@cotation.oeuvres = params[:cotation][:oeuvres][0]
+
+		@cotation.choices = params[:cotation][:choices]
+		if  @cotation.choices == [""]
+			@cotation.choices = nil
+		end 
+
+		@cotation.type = params[:cotation][:type]
+		if  @cotation.type == [""]
+			@cotation.type = nil
+		end 
+
+		if @cotation.oeuvres != nil
+			@cotation.oeuvres = params[:cotation][:oeuvres]
+			@cotation.oeuvres.each do |actiondispatch|
+				Cloudinary::Uploader.upload(actiondispatch.tempfile,folder:"/Cotations")
+			end
+			@cotation.oeuvres = 'Le client à télécharger des images, se rendre sur www.cloudinary.com / Media Library / Cotations Folder pour accéder aux images'
+		end
+
 		if @cotation.deliver
 		  flash.now[:notice] = 'Votre demande de cotation à bien été transmise, nous allons revenir vers vous au plus vite'
 		else
