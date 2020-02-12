@@ -8,4 +8,4 @@ function offsetAnchor() {
 window.addEventListener("hashchange", offsetAnchor);
 window.setTimeout(offsetAnchor, 1);
 
-export { offsetAnchor };
+offsetAnchor();

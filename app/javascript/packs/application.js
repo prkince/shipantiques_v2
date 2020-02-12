@@ -11,9 +11,6 @@ import "bootstrap";
 
 // *** components ***
 
-import { offsetAnchor } from '../components/anchor';
-offsetAnchor();
-
 AOS.init({
   duration: 800,
   easing: 'slide',
