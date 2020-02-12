@@ -11,12 +11,12 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 100%;
+      width: 60%;
       min-height:600px;
       max-height:100%;
       z-index: 1;
       font-family: 'Archivo', sans-serif;
-      background: #0D0C1E;
+      background: #3282b8;
       border-radius: 10px;
       overflow: hidden;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -169,10 +169,17 @@
       and (max-device-width : 1024px)
       and (orientation : portrait) {
       .page {
-        zoom: 300%!important;
+        zoom: 200%!important;
       }
     }
-
+    @media only screen
+      and (max-device-width : 400px)
+      and (orientation : portrait) {
+      .page {
+        zoom: 200%!important;
+        width: 100%;
+      }
+    }
   </style>
  </head>
 
@@ -420,7 +427,7 @@ animloop();
 
 
 $('#but').click(function(){
-location.href='https://prkince.github.io/shipantiques/';
+location.href='https://shipantiques.herokuapp.com/';
 })
 
 </script>
