@@ -10,93 +10,93 @@
   <div class="site-mobile-menu-body"></div>
 </div>
 
-  <header class="site-navbar py-3 js-site-navbar site-navbar-target" role="banner" id="site-navbar">
-    <div class="container">
-      <div class="desktop-nav">
-        <div class="site-logo">
-          <%= link_to cl_image_tag('https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/logo_blank_leiiqq.png', alt: "logo"), root_path %>
-        </div>
-        <div class="col-12 col-md-10 d-none d-xl-block">
-          <nav class="site-navigation position-relative text-center" role="navigation">
-            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+<header class="site-navbar py-3 js-site-navbar site-navbar-target" role="banner" id="site-navbar">
+  <div class="container">
+    <div class="desktop-nav">
+      <div class="site-logo">
+        <%= link_to cl_image_tag('https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/logo_blank_leiiqq.png', alt: "logo"), root_path %>
+      </div>
+      <div class="col-12 col-md-10 d-none d-xl-block">
+        <nav class="site-navigation position-relative text-center" role="navigation">
+          <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
 
-              <li class="has-children">
-                <% if current_page?(root_path) %>
-                  <div class="navbar-middle-button active">
-                <% else %>
-                  <div class="navbar-middle-button">
-                <% end %>
-                    <%= link_to "A propos", root_path(:anchor => "section-about")  %>
-                  </div>
-                <ul class="dropdown">
-                  <li><%= link_to "Ship Antiques", root_path(:anchor => "section-about"), class: "nav-link"  %></li>
-                  <li><%= link_to "Nos spécialités", specialites_path %></li>
-                  <li><%= link_to "Nos clients", root_path(:anchor => "section-clients"), class: "nav-link"  %></li>
-                </ul>
-              </li>
-
-              <li class="has-children">
-                <% if current_page?(services_path) %>
-                  <div class="navbar-middle-button active">
-                <% else %>
-                  <div class="navbar-middle-button">
-                <% end %>
-                  <%= link_to "Services", services_path %>
-                </div> 
-                <ul class="dropdown">
-                 <li> <%= link_to "Enlevement, Livraison et Manutention", services_path(:anchor => "services-enlevement"), class: "nav-link"  %> </li>
-                 <li> <%= link_to "Protection et emballage", services_path(:anchor => "services-protection"), class: "nav-link"  %> </li>                 
-                 <li> <%= link_to "Stockage et Gestion de Stock", services_path(:anchor => "services-stockage"), class: "nav-link"  %> </li>
-                 <li> <%= link_to "Gestion administrative : Documentation, Douane et Assurances", services_path(:anchor => "services-gestion"), class: "nav-link"  %> </li>
-                 <li> <%= link_to "Transport Multimodal", services_path(:anchor => "services-multimodal"), class: "nav-link"  %> </li>
-                </ul>
-              </li>
-
-              <li class="has-children">
-                <% if current_page?(infos_path) %>
-                  <div class="navbar-middle-button active">
-                <% else %>
-                  <div class="navbar-middle-button">
-                <% end %>
-                  <%= link_to "Contacts & Cotations", infos_path %>
-                </div>
-                <ul class="dropdown">
-                  <li><%= link_to "Infos Pratiques", infos_path %></li>
-                  <li><%= link_to "Nous rejoindre", nous_rejoindre_path %></li>
-                  <li><%= link_to "Demande de Cotation", new_cotation_path %></li>
-                  <li><%= link_to "Mentions Légales", mentions_legales_path %></li>
-                </ul>
-              </li>
-
-              <% if user_signed_in? %>
-              <li class="has-children">
-                <%= link_to "Admin", users_annonces_path %>
-                <ul class="dropdown">
-                    <li><%= link_to "Gerer les annonces", users_annonces_path %></li>
-                    <li><%= link_to "Se déconnecter", destroy_user_session_path, method: :delete%></li>
-                </ul>
+            <li class="has-children">
+              <% if current_page?(root_path) %>
+                <div class="navbar-middle-button active">
+              <% else %>
+                <div class="navbar-middle-button">
               <% end %>
+                  <%= link_to "A propos", root_path(:anchor => "section-about")  %>
+                </div>
+              <ul class="dropdown">
+                <li><%= link_to "Ship Antiques", root_path(:anchor => "section-about"), class: "nav-link"  %></li>
+                <li><%= link_to "Nos spécialités", specialites_path %></li>
+                <li><%= link_to "Nos clients", root_path(:anchor => "section-clients"), class: "nav-link"  %></li>
+              </ul>
+            </li>
 
-              <li class="has-children" id="flagOnNavbar">
-                <a class="nav-link first-flag"><%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/fr-flag_dicsiq.png', alt: 'logo', width: 20, height: 20 %></a>
-                <ul id="flags" class="dropdown">
-                  <li>
-                    <a class="nav-link"><%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/fr-flag_dicsiq.png', alt: 'logo', width: 20, height: 20 %></a>
-                    <a class="nav-link"><%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/us-flag_tv0tsg.png', alt: 'logo', width: 20, height: 20 %></a>
-                    <% if user_signed_in? != true %>
-                      <li><%= link_to "Admin", new_user_session_path %></li>
-                    <% end %>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" id="hamburger">
-          <span class="site-menu-toggle js-menu-toggle">
-            <%= cl_image_tag "https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/hamburger_x2w7o0.png", alt: "Menu", width: 70 %>
-          </span>
-        </div>
+            <li class="has-children">
+              <% if current_page?(services_path) %>
+                <div class="navbar-middle-button active">
+              <% else %>
+                <div class="navbar-middle-button">
+              <% end %>
+                <%= link_to "Services", services_path %>
+              </div> 
+              <ul class="dropdown">
+               <li> <%= link_to "Enlevement, Livraison et Manutention", services_path(:anchor => "services-enlevement"), class: "nav-link"  %> </li>
+               <li> <%= link_to "Protection et emballage", services_path(:anchor => "services-protection"), class: "nav-link"  %> </li>                 
+               <li> <%= link_to "Stockage et Gestion de Stock", services_path(:anchor => "services-stockage"), class: "nav-link"  %> </li>
+               <li> <%= link_to "Gestion administrative : Documentation, Douane et Assurances", services_path(:anchor => "services-gestion"), class: "nav-link"  %> </li>
+               <li> <%= link_to "Transport Multimodal", services_path(:anchor => "services-multimodal"), class: "nav-link"  %> </li>
+              </ul>
+            </li>
+
+            <li class="has-children">
+              <% if current_page?(infos_path) %>
+                <div class="navbar-middle-button active">
+              <% else %>
+                <div class="navbar-middle-button">
+              <% end %>
+                <%= link_to "Contacts & Cotations", infos_path %>
+              </div>
+              <ul class="dropdown">
+                <li><%= link_to "Infos Pratiques", infos_path %></li>
+                <li><%= link_to "Nous rejoindre", nous_rejoindre_path %></li>
+                <li><%= link_to "Demande de Cotation", new_cotation_path %></li>
+                <li><%= link_to "Mentions Légales", mentions_legales_path %></li>
+              </ul>
+            </li>
+
+            <% if user_signed_in? %>
+            <li class="has-children">
+              <%= link_to "Admin", users_annonces_path %>
+              <ul class="dropdown">
+                  <li><%= link_to "Gerer les annonces", users_annonces_path %></li>
+                  <li><%= link_to "Se déconnecter", destroy_user_session_path, method: :delete%></li>
+              </ul>
+            <% end %>
+
+            <li class="has-children" id="flagOnNavbar">
+              <a class="nav-link first-flag"><%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/fr-flag_dicsiq.png', alt: 'logo', width: 20, height: 20 %></a>
+              <ul id="flags" class="dropdown">
+                <li>
+                  <a class="nav-link"><%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/fr-flag_dicsiq.png', alt: 'logo', width: 20, height: 20 %></a>
+                  <a class="nav-link"><%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/us-flag_tv0tsg.png', alt: 'logo', width: 20, height: 20 %></a>
+                  <% if user_signed_in? != true %>
+                    <li><%= link_to "Admin", new_user_session_path %></li>
+                  <% end %>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" id="hamburger">
+        <span class="site-menu-toggle js-menu-toggle">
+          <%= cl_image_tag "https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/hamburger_x2w7o0.png", alt: "Menu", width: 70 %>
+        </span>
       </div>
     </div>
-  </header>
+  </div>
+</header>

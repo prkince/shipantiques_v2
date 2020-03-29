@@ -31,8 +31,8 @@
 			padding: 30px 20px 20px 20px;
 		}
 		p {
-		font-size: 15px!important;
-		text-align: justify;
+			font-size: 15px!important;
+			text-align: justify;
 		}
 	}
 }
@@ -107,18 +107,21 @@
 
 @media(max-width: 500px) {
 	#logo_and_text {
+		padding: 0px 10px 10px 10px;
 		.one {
 			display: flex;
+			flex-direction: unset;
 		    justify-content: center;
 			img {
 				visibility: visible;
 				position: relative;
-    			top: 100%;
-    			left: 0
+    			left: 0;
+    			min-height: 145px;
+    			top: 0
 			}
 		}
 		.two {
-			visibility: hidden
+			display: none
 		}
 	}
 }
