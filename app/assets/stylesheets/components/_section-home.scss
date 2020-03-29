@@ -72,18 +72,21 @@
 
 
 @media(max-width: 900px) {
-  .arrow-bounce {
-  	a img {
-  		visibility: hidden;
-  	}
-  }
-
-  #logo_and_text {
-  	top: 110px;
-  	height: calc(100vh);
-	display: flex;
-	flex-direction: column;
-	padding: 110px 10px 10px 10px;
+	.arrow-bounce {
+		a img {
+			visibility: hidden;
+		}
+	}
+	.container-home {
+		margin: 0rem 1rem 2rem 1rem;
+		height: 100%
+	}
+	#logo_and_text {
+		top: 110px;
+		height: calc(100vh);
+		display: flex;
+		flex-direction: column;
+		padding: 110px 10px 10px 10px;
 	.one {
 		img {
 			visibility: hidden;
@@ -92,12 +95,30 @@
 	.two {
 		.dark {
 			backdrop-filter: grayscale(1);
-			padding: 30px 20px 20px 20px;
+			padding: 1rem
 		}
 		p {
 			font-size: 15px!important;
 			text-align: justify;
 		}
+		}
 	}
 }
+
+@media(max-width: 500px) {
+	#logo_and_text {
+		.one {
+			display: flex;
+		    justify-content: center;
+			img {
+				visibility: visible;
+				position: relative;
+    			top: 100%;
+    			left: 0
+			}
+		}
+		.two {
+			visibility: hidden
+		}
+	}
 }
