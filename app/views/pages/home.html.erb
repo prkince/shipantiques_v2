@@ -129,48 +129,55 @@
 
     <div class="clients">
 
-      <div class="client" data-aos="fade" data-aos-delay="100">
-        <div class="how-it-work-item">
-          <span class="number">1</span>
-          <div class="how-it-work-body">
-            <h2>Antiquaires et galeries d'art</h2>
-            <p class="mb-5" style="text-align: justify;"><strong> For Fine Art Galleries, Antiques Dealers, auction houses.</strong> <br>Our extensive network of international fine art logistics agents allows us to handle your shipments safely and efficiently to or from almost any major city worldwide. As well as customs clearance, we are able to arrange all other required import/export documentation including CITES (endangered species); Import/Export licenses; ATA Carnet; and Antique Certification.</p>
+      <%= link_to clients_path(:anchor => "clients-antiquaires") do %>
+        <div class="client" data-aos="fade" data-aos-delay="100">
+          <div class="how-it-work-item">
+            <span class="number">1</span>
+            <div class="how-it-work-body">
+              <h2>Antiquaires et galeries d'art</h2>
+              <p class="mb-5" style="text-align: justify;"><strong> For Fine Art Galleries, Antiques Dealers, auction houses.</strong> <br>Our extensive network of international fine art logistics agents allows us to handle your shipments safely and efficiently to or from almost any major city worldwide. As well as customs clearance, we are able to arrange all other required import/export documentation including CITES (endangered species); Import/Export licenses; ATA Carnet; and Antique Certification.</p>
+            </div>
           </div>
         </div>
-      </div>
+      <% end %>
 
-      <div class="client" data-aos="fade" data-aos-delay="200">
-        <div class="how-it-work-item">
-          <span class="number">2</span>
-          <div class="how-it-work-body">
-            <h2>Décorateurs & Architectes</h2>
-            <p class="mb-5" style="text-align: justify;">With a truly global reach we are able to offer clients an exceptional service utilizing our in-depth knowledge, experience, facilities and highly trained technicians thus ensuring the efficient handling of complex projects to high standards.</p>
+      <%= link_to clients_path(:anchor => "clients-decorateurs") do %>
+        <div class="client" data-aos="fade" data-aos-delay="200">
+          <div class="how-it-work-item">
+            <span class="number">2</span>
+            <div class="how-it-work-body">
+              <h2>Décorateurs & Architectes</h2>
+              <p class="mb-5" style="text-align: justify;">With a truly global reach we are able to offer clients an exceptional service utilizing our in-depth knowledge, experience, facilities and highly trained technicians thus ensuring the efficient handling of complex projects to high standards.</p>
+            </div>
           </div>
         </div>
-      </div>
+      <% end %>
 
-      <div class="client" data-aos="fade" data-aos-delay="300">
-        <div class="how-it-work-item">
-          <span class="number">3</span>
-          <div class="how-it-work-body">
-            <h2>Marques de luxes et magasins</h2>
-            <p class="mb-5" style="text-align: justify;">Some of the services we provide specifically for luxury brands include: Transportation: Local Collections & Deliveries. Inventory Management: update Inventory on request. Storage: High Security, both shared and exclusive-use rooms. Custom Crate Fabrication: In-house crate shop able to safely pack unique objects of all sizes and shapes.
-            Art Hanging & Installation Teams: White gloves services to safely move and installing artwork and chandeliers. All Risks Insurance.</p>
+      <%= link_to clients_path(:anchor => "clients-luxe") do %>
+        <div class="client" data-aos="fade" data-aos-delay="300">
+          <div class="how-it-work-item">
+            <span class="number">3</span>
+            <div class="how-it-work-body">
+              <h2>Marques de luxes et magasins</h2>
+              <p class="mb-5" style="text-align: justify;">Some of the services we provide specifically for luxury brands include: Transportation: Local Collections & Deliveries. Inventory Management: update Inventory on request. Storage: High Security, both shared and exclusive-use rooms. Custom Crate Fabrication: In-house crate shop able to safely pack unique objects of all sizes and shapes.
+              Art Hanging & Installation Teams: White gloves services to safely move and installing artwork and chandeliers. All Risks Insurance.</p>
+            </div>
           </div>
         </div>
-      </div>
+      <% end  %>
 
-      <div class="client" data-aos="fade" data-aos-delay="400">
-        <div class="how-it-work-item">
-          <span class="number">4</span>
-          <div class="how-it-work-body">
-            <h2>Particuliers</h2>
-            <p class="mb-5" style="text-align: justify;">
-              With 10 years’ experience, Ship Antiques can manage the most complex international transport of fine art and antiques collections. We provide a full range of packing, casing, installations and transport services and deal with international customs clearance formalities. </p>
+      <%= link_to clients_path(:anchor => "clients-particuliers") do %>
+        <div class="client" data-aos="fade" data-aos-delay="400">
+          <div class="how-it-work-item">
+            <span class="number">4</span>
+            <div class="how-it-work-body">
+              <h2>Particuliers</h2>
+              <p class="mb-5" style="text-align: justify;">
+                With 10 years’ experience, Ship Antiques can manage the most complex international transport of fine art and antiques collections. We provide a full range of packing, casing, installations and transport services and deal with international customs clearance formalities. </p>
+            </div>
           </div>
         </div>
-      </div>
-
+      <% end %>
     </div>
 
   </div>

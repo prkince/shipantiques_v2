@@ -22,10 +22,8 @@
     </div>
     <div class="annonce-ship">
       <% results = Cloudinary::Api.resources(type:"upload",prefix:"Annonces/") %>
-      <% if results['resources'].empty? %>
-        <div class="container-specialites">
           <div class="row align-items-stretch justify-content-center">
-            <div class="col-md-6 col-lg-10 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-12 mb-5" data-aos="fade-up" data-aos-delay="200">
               <div class="unit-4 d-flex">      
                 <div>
                   <p style="text-align: justify">Nous encourageons la prise de responsabilité, l’épanouissement des talents et favorisons l’évolution des carrières au sein de l’entreprise. <p>
@@ -35,8 +33,13 @@
               </div>
             </div>
           </div>
+      <% if results['resources'].empty? == false %>
+        <div class="row justify-content-center mb-5" data-aos="fade-up">
+          <div class="col-md-7 text-center border-primary">
+            <h2 class="mb-0 text-color-ship"> Nos Annonces</h2>
+            <p class="color-black-opacity-5"></p>
+          </div>
         </div>
-      <% else %>
         <%results['resources'].each do |resource| %>
           <%= cl_image_tag(resource['secure_url'], :crop => :fill) %>
         <%end %>   

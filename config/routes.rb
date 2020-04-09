@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get "infos", to: "pages#infos", as: :infos
   get "nous_rejoindre", to: "pages#nous_rejoindre", as: :nous_rejoindre
   get "mentions_legales", to: "pages#mentions_legales", as: :mentions_legales
+  get "clients", to: "pages#clients", as: :clients
 
   resources "cotations", only: [:new, :create]
 

@@ -7,10 +7,18 @@
   padding: 1rem 1rem 1rem 1rem;
 }
 
+.client-page {
+	display: flex
+}
 
 @media(max-width: 768px) {
   .clients {
     grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .client-page {
+  	display: grid;
+  	grid-template-columns: 1fr;  	
     text-align: center;
   }
 }
