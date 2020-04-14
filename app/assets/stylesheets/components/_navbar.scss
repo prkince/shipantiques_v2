@@ -136,7 +136,9 @@
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
         position: relative;
-        padding-right: 20px; }
+        padding-right: 20px;
+        padding-top: 0
+        }
         .site-navbar .site-navigation .site-menu .has-children > a:before {
           position: absolute;
           font-size: 16px;
@@ -150,9 +152,12 @@
       .site-navbar .site-navigation .site-menu #flagOnNavbar {
         position: absolute;
         right: -30px;
-        top: 0px;
-        .first-flag img {
-          margin-left: 22px;
+        top: 4px;
+        .first-flag {
+          justify-content: center;
+          display: flex;
+          padding: 0;
+          min-width: 85px;
         }
       }
 
@@ -176,7 +181,12 @@
         -o-transition: 0.2s 0s;
         transition: 0.2s 0s; }
       .site-navbar .site-navigation .site-menu .has-children #flags {
-        width: 85px; }
+        width: 85px;
+        li {
+          text-align: center;
+          min-width: 85px
+        }
+        }
         .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top {
           position: absolute; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top:before {
