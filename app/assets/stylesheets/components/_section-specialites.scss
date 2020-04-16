@@ -47,11 +47,10 @@
       text-align: center;
     }
     #section-specialite-boutique {
-      background-color: blue
+      flex-direction: column-reverse
     }
     .nos-specialites {
       height: auto;
-      background: white;
       display: flex;
       flex-direction: column;
       justify-content: space-between;

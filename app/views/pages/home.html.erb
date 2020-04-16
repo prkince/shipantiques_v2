@@ -38,9 +38,7 @@
       </div>
     <div class="row mb-5" >
 
-      <div class="col-md-8 order-md-1" data-aos="fade-up" data-aos-delay="100">
-        <div class="text-left pb-1mb-4">
-        </div>
+      <div class="col-md-8 order-md-1" id="carrousels" data-aos="fade-up" data-aos-delay="100">
         <p style="text-align: justify;"><b><i>SHIP ANTIQUES</i></b> est un commissionnaire de transport international spécialisée dans les antiquités, les œuvres d’art et les objets fragiles.</p>
         <p style="text-align: justify;">Nous sommes situés au cœur des puces de St Ouen, plus grand marché dédié aux antiquités dans le monde pour la partie administrative et commerciale.</p>
         <p style="text-align: justify;">C’est dans cet environnement fabuleux et atypique que nos équipes jeunes, dynamiques et internationales accueillent et accompagnent notre clientèle venue du monde entier.</p>
@@ -149,7 +147,9 @@
       <%= link_to clients_path(:anchor => "clients-antiquaires") do %>
         <div class="client" data-aos="fade" data-aos-delay="100">
           <div class="how-it-work-item">
-            <span class="number">1</span>
+            <div id="how-it-work-number">
+              <span class="number">1</span>
+            </div>
             <div class="how-it-work-body mt-4 mt-4">
               <h2>Galleries d'art, Artistes,  antiquaires et les maisons de vente aux encheres</h2>
               <p class="mb-5" style="text-align: justify;">Notre large reseau d'agents spécialisés nous permet de gerer vos expeditions internationales efficacement et en toute sécurité. Nous pouvons opérés depuis et vers la majorité des principales villes mondiales. En plus des formalités douanieres, nous pouvons  gerer pour vous toutes la documentation specifiques telle que les CITES, licence emport/export, carnet ATA ou autres certificats locaux ou internationaux.</p>
@@ -161,7 +161,9 @@
       <%= link_to clients_path(:anchor => "clients-decorateurs") do %>
         <div class="client" data-aos="fade" data-aos-delay="200">
           <div class="how-it-work-item">
-            <span class="number">2</span>
+            <div id="how-it-work-number">
+              <span class="number">2</span>
+            </div>        
             <div class="how-it-work-body mt-4">
               <h2>Architectes, architectes d'interieur et decorateurs</h2>
               <p class="mb-5" style="text-align: justify;">Nous sommes reconnus pour notre expertise et nous pouvons offrir à nos clients professionnels un service d'exception grace à notre experience, nos moyens et nos equipes spécialisés. Nous gerons pour vous tout vos projets complexes et de haut niveau.</p>
@@ -173,7 +175,9 @@
       <%= link_to clients_path(:anchor => "clients-luxe") do %>
         <div class="client" data-aos="fade" data-aos-delay="300">
           <div class="how-it-work-item">
-            <span class="number">3</span>
+            <div id="how-it-work-number">
+              <span class="number">3</span>
+            </div>
             <div class="how-it-work-body mt-4">
               <h2>Marques de luxe : magasins uniques, projets et evenements spéciaux</h2>
               <p class="mb-5" style="text-align: justify;">Nous offrons un sercice spécial pour les grandes marques, leurs magasins et les projets spéciaux. Notre "projet boutique" prend en charge l'essentiel des contraintes de vos projets en termes de logistique incluant egalement un service de source de marchandises. Nous gerons les stocks pour vous et nous occupons de toute la logistique y compris la mise en place et l'installation.</p>
@@ -185,7 +189,9 @@
       <%= link_to clients_path(:anchor => "clients-particuliers") do %>
         <div class="client" data-aos="fade" data-aos-delay="400">
           <div class="how-it-work-item">
-            <span class="number">4</span>
+            <div id="how-it-work-number">
+              <span class="number">4</span>
+            </div>
             <div class="how-it-work-body mt-4">
               <h2>Collectionneurs privés et particuliers </h2>
               <p class="mb-5" style="text-align: justify;">
@@ -212,8 +218,8 @@
 
       <div class="service-hover col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
         <%= link_to services_path(:anchor => "services-enlevement") do %>
-            <div class="unit-4 d-flex" id="services-card">
-              <div class="unit-4-icon mr-4">
+            <div class="unit-4" id="services-card">
+              <div class="unit-4-icon" id="logo-specialite">
                 <i class="fas fa-people-carry" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px"></i>
               </div>
               <div>
@@ -226,8 +232,8 @@
 
       <div class="service-hover col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
         <%= link_to services_path(:anchor => "services-protection") do %>
-          <div class="unit-4 d-flex" id="services-card">
-            <div class="unit-4-icon mr-4">
+          <div class="unit-4" id="services-card">
+            <div class="unit-4-icon" id="logo-specialite">
               <i class="fas fa-box-open" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px"></i>
             </div>
             <div>
@@ -240,8 +246,8 @@
 
       <div class="service-hover col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
         <%= link_to services_path(:anchor => "services-stockage") do %>
-          <div class="unit-4 d-flex" id="services-card">
-            <div class="unit-4-icon mr-4">
+          <div class="unit-4" id="services-card">
+            <div class="unit-4-icon" id="logo-specialite">
               <i class="fas fa-boxes" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px"></i>
             </div>
             <div>
@@ -255,8 +261,8 @@
 
       <div class="service-hover col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
         <%= link_to services_path(:anchor => "services-gestion") do %>
-          <div class="unit-4 d-flex" id="services-card">
-            <div class="unit-4-icon mr-4">
+          <div class="unit-4" id="services-card">
+            <div class="unit-4-icon" id="logo-specialite">
               <i class="fas fa-user-shield" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px"></i>
             </div>
             <div>
@@ -270,7 +276,7 @@
       <div class="service-hover col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
         <%= link_to services_path(:anchor => "services-multimodal") do %>
           <div class="unit-4 d-flex" id="services-card">
-            <div class="unit-4-icon mr-4">
+            <div class="unit-4-icon" id="logo-specialite">
               <i class="fas fa-ship" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px"></i>
             </div>
             <div>

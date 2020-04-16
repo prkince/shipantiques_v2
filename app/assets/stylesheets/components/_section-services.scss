@@ -2,6 +2,13 @@
 	color: #4D4D4D!important; 
 	padding: 1rem 1rem 1rem 1rem;
 	margin: 1rem 1rem 1rem 1rem;
+	display: flex;
+	flex-direction: column;
+	#logo-specialite {
+		display: flex;
+		justify-content: center;
+		margin: 1rem 1rem 2rem 1rem;
+	}
 }
 
 .service-hover:hover {

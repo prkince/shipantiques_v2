@@ -4,6 +4,10 @@
 
 .how-it-work-item {
   padding: 1rem;
+  #how-it-work-number {
+  	display: flex;
+    justify-content: center;
+  }
 }
 
 .clients a:hover {
