@@ -5,12 +5,11 @@
     margin-bottom: 1rem !important;
   }
   .nos-specialites {
-    background: white;
     height: auto;
     display: flex;
     justify-content: space-between;
     height: auto;
-    margin: 20px 0px 20px 0px;
+    margin: 0;
     padding: 2rem 2rem 2rem 2rem;
     .specialite-img {
       height: 240px;
@@ -32,6 +31,9 @@
       }
     }
   }
+  .nos-specialites:hover {
+    background: white;
+  }
 }
 
 
@@ -43,6 +45,9 @@
       text-transform: uppercase;
       margin-bottom: 1rem !important;
       text-align: center;
+    }
+    #section-specialite-boutique {
+      background-color: blue
     }
     .nos-specialites {
       height: auto;

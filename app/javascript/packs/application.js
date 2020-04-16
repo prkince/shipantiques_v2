@@ -21,5 +21,5 @@ AOS.init({
 import { siteMenuClone, scrollWindow, OnePageNavigation } from '../components/navbar';
 siteMenuClone();
 scrollWindow();
-OnePageNavigation();
+//OnePageNavigation();
 
