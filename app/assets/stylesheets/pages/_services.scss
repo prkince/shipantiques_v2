@@ -31,3 +31,58 @@
   	}
   }
 }
+
+
+// Test GD 17/04
+
+.container-specialites-2 {
+  padding: 5rem 2rem 2rem 2rem;
+  cursor: default;
+  .services-description-2 {
+    display: flex;
+    padding: 2rem 0rem 2rem 0rem;
+    .services-description-image {
+      width: 50%;
+      flex: 1;
+      overflow: hidden;
+      img {
+        height: 100%
+      }
+    }
+    .services-description-texte {
+      flex: 1;
+      padding: 2rem;
+      p, li {
+        text-align: justify;
+      }
+      h3 {
+        color: #2F97F3;
+        padding: 0rem 0rem 3rem 0rem;
+      }
+    }
+
+  }
+}
+
+.container-specialites-2:hover {
+  background-color: rgba(255,255,255,0.6);
+}
+@media(max-width: 800px) {
+  .container-specialites-2 {
+    #services-description-2-reverse {
+      flex-direction: column-reverse;
+    }
+    .services-description-2 {
+      flex-direction: column;
+      .services-description-image {
+        width: 100%
+      }
+      .services-description-texte{
+        padding: 2rem 0rem 2rem 0rem;
+        h3 {
+          text-align: center
+        }
+      }
+    }
+  }
+}
