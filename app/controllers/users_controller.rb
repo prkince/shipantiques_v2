@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
-  def annonces
+
+  def destroy
+  	redirect_to_root_path
   end
+
 end

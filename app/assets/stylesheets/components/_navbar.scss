@@ -284,7 +284,14 @@
 
 .site-navbar:hover {
   .site-logo img {
-    width: 75px
+    width: 75px;
+  }
+  .site-navigation .site-menu a {
+    font-size: 15px
+  }
+  .site-navigation .site-menu #flagOnNavbar .first-flag img {
+    width: 25px;
+    height: 25px;
   }
 }
 /* Navbar desktop */
