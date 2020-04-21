@@ -1,7 +1,7 @@
 .btn {
   text-transform: uppercase;
   letter-spacing: .2em;
-  border-radius: 26px; }
+  }
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
@@ -15,7 +15,7 @@
 
 
 .btn-prk {
-  color: #212529;
+  color: white;
   background-color: #2F98F3;
   border-color: #2F98F3; }
   .btn-prk:hover {
@@ -23,8 +23,8 @@
     background-color: #68B3F6;
     border-color: #68B3F6; }
   .btn-prk:focus, .btn-prk.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem #2F98F3;
-    box-shadow: 0 0 0 0.2rem #2F98F3; }
+    -webkit-box-shadow: 0 0 0 0.5rem #2F98F3;
+    box-shadow: 0 0 0 0.5rem #2F98F3; }
   .btn-prk.disabled, .btn-prk:disabled {
     color: #212529;
     background-color: #2F98F3;

@@ -53,15 +53,15 @@
             </li>
 
             <li class="has-children">
-              <% if current_page?(infos_path) || current_page?(new_cotation_path) %>
+              <% if current_page?(infos_path) || current_page?(cotation_new_path) %>
                 <div class="navbar-middle-button active">
               <% else %>
                 <div class="navbar-middle-button">
               <% end %>
-                <%= link_to "Contacts & Cotations", new_cotation_path %>
+                <%= link_to "Contacts & Cotations", cotation_new_path %>
               </div>
               <ul class="dropdown">
-                <li><%= link_to "Demande de Cotation", new_cotation_path %></li>
+                <li><%= link_to "Demande de Cotation", cotation_new_path %></li>
                 <li><%= link_to "Nous trouver", infos_path %></li>
               </ul>
             </li>

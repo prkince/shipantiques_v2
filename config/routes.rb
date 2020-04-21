@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources "cotations", only: [:new, :create]
+  resources "cotations", only: [:create]
+  get '/cotations', to: 'cotations#new', as: :cotation_new
 
   get 'users/annonces'
   post 'users/annonces', to: 'users#annonces'
