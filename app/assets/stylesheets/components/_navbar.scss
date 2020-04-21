@@ -254,8 +254,6 @@
     right: 0;
     top: 0;
     margin-top: -130px;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
     -webkit-box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.1); }
     .site-navbar.scrolled.awake {
@@ -283,15 +281,24 @@
       color: #000 !important; }
 
 .site-navbar:hover {
-  .site-logo img {
-    width: 75px;
-  }
-  .site-navigation .site-menu a {
-    font-size: 15px
-  }
   .site-navigation .site-menu #flagOnNavbar .first-flag img {
     width: 25px;
     height: 25px;
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out
+  }
+  .site-logo img {
+    width: 75px;
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out
+  }
+  .site-navigation .site-menu a {
+    font-size: 15px;
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out
   }
 }
 /* Navbar desktop */
