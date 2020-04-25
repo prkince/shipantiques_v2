@@ -29,6 +29,25 @@
 	}
 }
 
+#btn-infos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	a {
+		min-width: 360px;
+		min-height: 100px;
+		margin: 3rem 1rem 3rem 1rem;
+		padding: 1rem;
+		font-size: 20px;
+		flex: 1 1 0px;
+		    display: flex;
+    align-items: center;
+    justify-content: center;
+
+	}
+}
+
 
 @media(max-width: 1000px) {
 
@@ -61,6 +80,16 @@
 			display: grid;
 			margin-top: 10px;
 			text-align: center;
+		}
+	}
+
+	#btn-infos {
+	flex-direction: column;
+	margin: 3rem 0rem 3rem 0rem;
+	width: 100%;
+		a {
+			width: 95%;
+			margin: 1rem 1rem 1rem 1rem
 		}
 	}
 }
