@@ -1,0 +1,57 @@
+fr:
+  pages:
+    liens:
+      liens_utiles: "Liens Utiles"
+
+    clients:
+      acceuil: 'accueil'
+      titre: 'nos clients'
+
+    infos:
+      acceuil: 'acceuil'
+      titre: "nous trouver"
+
+    contact:
+      acceuil: 'accueil'
+      titre: 'Contact & Cotations'
+
+  shared:
+    _navbar:
+      a_propos_menu:
+        a_propos: 'a propos'
+        ship_antiques: 'ship antiques'
+        nos_specialites: 'nos specialites'
+        nos_clients: 'nos clients'
+      services_menu:
+        services: 'services'
+        enl_liv_manut: "Enlevement, Livraison et Manutention"
+        protection_emballage: "Protection et emballage"
+        stock_et_gestion: "Stockage et Gestion de Stock"
+        gestion_admin: "Gestion administrative : Documentation, Douane et Assurances"
+        tpt_multi: "Transport Multimodal"
+      contacts_et_cotations_menu:
+        contacts_et_cotations: 'contacts & cotations'
+        demande_cot: 'Demande de Cotation'
+        nous_trouver: "Nous trouver"
+      infos_pratiques_menu:
+        infos_pratiques: "infos pratiques"
+        mentions_legales: "Mentions Légales"
+        nous_rejoindre: "Nous rejoindre"
+        liens_utiles: "Liens Utiles"
+
+    _infos:
+      titre: 'nous trouver'
+      contactez_nous: 'Contactez-nous par Email'
+      demande_devis: 'Demande de devis'
+      address_1: "SAS (Siège Social)"
+      address_2: "Adresse"
+      address_3: "138, rue des rosiers, 93400 Saint Ouen"
+      address_4: "Marché Dauphine, stand 24-25-26"
+      phone_1: "Téléphone"
+      phone_2: "+ 33 1 40 12 98 04"
+      accueil_equipe_html: "Notre équipe vous accueille au Marché Dauphine, stand 24-25-26, du vendredi au lundi de 9h30 à 18h00, et tous les jours par email ou téléphone."
+      address_depot_1_html: "SAE - SHIP ANTIQUES EMBALLAGE"
+      address_depot_2_html: "Adresse"
+      address_depot_3_html: "154 allée des érables - BAT A10/11/12"
+      address_depot_4_html: "ZI Paris nord 2"
+      address_depot_5_html: "93420 Villepinte"

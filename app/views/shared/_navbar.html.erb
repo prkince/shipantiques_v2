@@ -26,12 +26,12 @@
               <% else %>
                 <div class="navbar-middle-button">
               <% end %>
-                  <%= link_to "A propos", root_path(:anchor => "section-about")  %>
+                  <%= link_to t('shared._navbar.a_propos_menu.a_propos'), root_path(:anchor => "section-about")  %>
                 </div>
               <ul class="dropdown">
-                <li><%= link_to "Ship Antiques", root_path(:anchor => "section-about"), class: "nav-link"  %></li>
-                <li><%= link_to "Nos spécialités", specialites_path %></li>
-                <li><%= link_to "Nos clients", clients_path, class: "nav-link"  %></li>
+                <li><%= link_to t('shared._navbar.a_propos_menu.ship_antiques'), root_path(:anchor => "section-about"), class: "nav-link"  %></li>
+                <li><%= link_to t('shared._navbar.a_propos_menu.nos_specialites'), specialites_path %></li>
+                <li><%= link_to t('shared._navbar.a_propos_menu.nos_clients'), clients_path, class: "nav-link"  %></li>
               </ul>
             </li>
 
@@ -41,14 +41,14 @@
               <% else %>
                 <div class="navbar-middle-button">
               <% end %>
-                <%= link_to "Services", services_path %>
+                <%= link_to t('shared._navbar.services_menu.services'), services_path %>
               </div> 
               <ul class="dropdown">
-               <li> <%= link_to "Enlevement, Livraison et Manutention", services_path(:anchor => "services-enlevement"), class: "nav-link"  %> </li>
-               <li> <%= link_to "Protection et emballage", services_path(:anchor => "services-protection"), class: "nav-link"  %> </li>                 
-               <li> <%= link_to "Stockage et Gestion de Stock", services_path(:anchor => "services-stockage"), class: "nav-link"  %> </li>
-               <li> <%= link_to "Gestion administrative : Documentation, Douane et Assurances", services_path(:anchor => "services-gestion"), class: "nav-link"  %> </li>
-               <li> <%= link_to "Transport Multimodal", services_path(:anchor => "services-multimodal"), class: "nav-link"  %> </li>
+               <li> <%= link_to t('shared._navbar.services_menu.enl_liv_manut'), services_path(:anchor => "services-enlevement"), class: "nav-link"  %> </li>
+               <li> <%= link_to t('shared._navbar.services_menu.protection_emballage'), services_path(:anchor => "services-protection"), class: "nav-link"  %> </li>                 
+               <li> <%= link_to t('shared._navbar.services_menu.stock_et_gestion'), services_path(:anchor => "services-stockage"), class: "nav-link"  %> </li>
+               <li> <%= link_to t('shared._navbar.services_menu.gestion_admin'), services_path(:anchor => "services-gestion"), class: "nav-link"  %> </li>
+               <li> <%= link_to t('shared._navbar.services_menu.tpt_multi'), services_path(:anchor => "services-multimodal"), class: "nav-link"  %> </li>
               </ul>
             </li>
 
@@ -58,11 +58,11 @@
               <% else %>
                 <div class="navbar-middle-button">
               <% end %>
-                <%= link_to "Contacts & Cotations", cotation_new_path %>
+                <%= link_to t('shared._navbar.contacts_et_cotations_menu.contacts_et_cotations'), cotation_new_path %>
               </div>
               <ul class="dropdown">
-                <li><%= link_to "Demande de Cotation", cotation_new_path %></li>
-                <li><%= link_to "Nous trouver", infos_path %></li>
+                <li><%= link_to t('shared._navbar.contacts_et_cotations_menu.demande_cot'), cotation_new_path %></li>
+                <li><%= link_to t('shared._navbar.contacts_et_cotations_menu.nous_trouver'), infos_path %></li>
               </ul>
             </li>
 
@@ -72,12 +72,12 @@
               <% else %>
                 <div class="navbar-middle-button">
               <% end %>
-                <%= link_to "Infos Pratiques", mentions_legales_path %>
+                <%= link_to t('shared._navbar.infos_pratiques_menu.infos_pratiques'), mentions_legales_path %>
               </div>
               <ul class="dropdown">
-                <li><%= link_to "Mentions Légales", mentions_legales_path %></li>
-                <li><%= link_to "Nous rejoindre", nous_rejoindre_path %></li>
-                <li><%= link_to "Liens Utiles", liens_path %></li>
+                <li><%= link_to t('shared._navbar.infos_pratiques_menu.mentions_legales'), mentions_legales_path %></li>
+                <li><%= link_to t('shared._navbar.infos_pratiques_menu.nous_rejoindre'), nous_rejoindre_path %></li>
+                <li><%= link_to t('shared._navbar.infos_pratiques_menu.liens_utiles'), liens_path %></li>
               </ul>
             </li>
 
@@ -93,13 +93,19 @@
             <li class="has-children" id="flagOnNavbar">
               <a class="nav-link first-flag"><%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/fr-flag_dicsiq.png', alt: 'logo', width: 20, height: 20 %></a>
               <ul id="flags" class="dropdown">
+
                 <li>
-                  <a class="nav-link"><%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/fr-flag_dicsiq.png', alt: 'logo', width: 20, height: 20 %></a>
-                  <a class="nav-link"><%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/us-flag_tv0tsg.png', alt: 'logo', width: 20, height: 20 %></a>
+                  <%= link_to root_path(locale: :fr), class: 'nav-link' do %>
+                    <%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/fr-flag_dicsiq.png', alt: 'logo', width: 20, height: 20 %>
+                  <% end %>
+                  <%= link_to root_path(locale: :en), class: 'nav-link'  do %>
+                    <%= cl_image_tag 'https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/us-flag_tv0tsg.png', alt: 'logo', width: 20, height: 20 %>
+                  <% end %>
                   <% if user_signed_in? != true %>
                     <li><%= link_to "Admin", new_user_session_path %></li>
                   <% end %>
                 </li>
+
               </ul>
             </li>
           </ul>
