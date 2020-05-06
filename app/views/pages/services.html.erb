@@ -3,8 +3,8 @@
     <div class="row align-items-center justify-content-center text-center">
 
       <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
-        <h1 class="text-white font-weight-light text-uppercase font-weight-bold">Nos services</h1>
-        <p class="breadcrumb-custom"><%= link_to "Accueil", root_path %> <span class="mx-2">&gt;</span> <span>Services</span></p>
+        <h1 class="text-white font-weight-light text-uppercase font-weight-bold"><%= t '.titre'  %></h1>
+        <p class="breadcrumb-custom"><%= link_to t(".accueil"), root_path %> <span class="mx-2">&gt;</span> <span><%= t '.titre'  %></span></p>
       </div>
     </div>
   </div>
@@ -17,7 +17,7 @@
       <div class="container-specialites-2">
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
-            <h2 class="text-color-ship">Enlevement, livraison et manutention</h2>
+            <h2 class="text-color-ship"><%= t ".enl_liv_manut_titre" %></h2>
             <p class="color-black-opacity-5"></p>
           </div>
         </div>
@@ -29,11 +29,7 @@
                 <%= image_tag('blog_1.jpg')%>
               </div>
               <div class="services-description-texte">
-                <p>Nos équipes de chauffeurs/ripeurs ont l’expérience de la manipulation et du transport des marchandises fragiles non emballées.</p>
-                <p>Nous utilisons du matériel adapté et professionnel (camion capitonné, couvertures, divers matériel d’emballage…).</p>
-                <p>Pour les pièces les plus fragiles et nécessitant un emballage directement sur site, nos équipes d’emballeurs professionnels interviennent directement pour la protection et la mise en caisse chez l’expéditeur avant le transport.</p>
-                <p>Nous intervenons régulièrement sur les puces de St Ouen, chez les antiquaires, dans les galeries d’art, auprès des maisons de vente et chez des particuliers.</p>
-                <p>Nous participons également à la mise en place et au démontage d’expositions dans des lieux prestigieux.</p>                         
+                <%= t '.enl_liv_manut_texte_html' %>         
               </div>
             </div>
           </div>
@@ -48,7 +44,7 @@
 
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
-            <h2 class="text-color-ship">Protection et emballage</h2>
+            <h2 class="text-color-ship"><%= t ".protection_emballage_titre" %></h2>
             <p class="color-black-opacity-5"></p>
           </div>
         </div>
@@ -57,11 +53,7 @@
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
               <div class="services-description-2" id="services-description-2-reverse">
                 <div class="services-description-texte">            
-                  <p>Tous nos emballages sont effectués en internes par nos équipes de layetiers/emballeurs dans notre atelier de Roissy/CDG.</p>
-                  <p>Les protections et emballages sont toujours réalisés sur mesure.</p>
-                  <p>Fonction du type de marchandise et du mode de transport choisi, nous proposons différents types de caisses et de protection et emballage de la marchandise.</p>
-                  <p>Simple carton, TC SUPER, caisson CP15, caisse bois barrée italienne et maritime P4, caisse dite « musée », nous saurons toujours vous proposer la solution d’emballage la plus adapté à la marchandise et la plus sure pour satisfaire nos clients.</p>                         
-                  <p>Tous nos materiaux d’emballage respectent les standards de la profession et le bois utilisé pour nos caisses est traité et aux normes internationales (NIMP15).</p>                         
+                  <%= t '.protection_emballage_texte_html'  %>
                 </div>
                 <div class="services-description-image">  
                   <%= image_tag('blog_2.jpg')%>
@@ -77,7 +69,7 @@
 
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
-            <h2 class="text-color-ship">Stockage et gestion de stock</h2>
+            <h2 class="text-color-ship"><%= t '.stock_et_gestion_titre'  %></h2>
             <p class="color-black-opacity-5"></p>
           </div>
         </div>
@@ -90,13 +82,7 @@
                 <%= image_tag('blog_1.jpg')%>
               </div>
               <div class="services-description-texte">
-                <p>Nous proposons différentes solutions fonction de vos types d’emballages et de produits. Nous pouvons stocker en particulier de la marchandise sans emballage en toute sécurité.</p>
-                <p>Une partie de notre entrepôt est dédiée au stockage de vos marchandises.</p>
-                <p>Des solutions de gestion de stock sont aussi proposé pour notre clientèle professionnelle.</p>
-                <p>Nous gérons pour vous votre stock de mobilier et d’objets de décoration pour vos projets :</p>
-                <li>Gestion des stocks au jour le jour avec inventaire complet.</li>
-                <li>Mise à votre disposition notre réseaux de professionnels du secteur (ébénistes/vernisseurs, tapissiers, restaurateurs, etc.) et organisation des transferts via nos navettes.</li>
-                <li>Organisation des présentations, mise en place, préparations préliminaires avant emballage et expéditions.</li>
+                <%= t '.stock_et_gestion_texte_html'  %>
               </div>
             </div>
           </div>
@@ -110,7 +96,7 @@
 
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
-            <h2 class="text-color-ship">Gestion administrative : Documentation, Douane et Assurances</h2>
+            <h2 class="text-color-ship"><%= t '.gestion_admin_titre' %></h2>
             <p class="color-black-opacity-5"></p>
           </div>
         </div>
@@ -121,9 +107,7 @@
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4 d-flex">
               <div>
-                <p style="text-align: center;">A produit unique, documentation spécifique !</p>
-                <p style="text-align: center;">Notre expertise nous permet de gérer pour le compte de nos clients les documents d’accompagnements nécessaires au bon déroulement des chaines logistiques.</p>
-                <p style="text-align: center;">Nous opérons toujours sous la couverture d’assurances solides et dédiées à ces marchandises sensibles.</p>
+                <%= t '.gestion_admin_texte_html' %>
               </div>
             </div>
           </div>
@@ -134,12 +118,7 @@
                 <%= image_tag('blog_1.jpg')%>
               </div>
               <div class="services-description-texte">
-                <h3>Documentation</h3>
-                <p>Toutes les marchandises transportées par SHIP ANTIQUES en Fret maritime seront emballées en caisse. C’est un principe de fonctionnement qui nous permet aujourd’hui de limiter voire d’éliminer les risques de casse liés au transport.</p>
-                <li>Point clés pour un passage en douane et une exportation sans soucis au départ comme à l’arrivée, une documentation exhaustive et complète est primordiale dans le cadre de nos chaines logistiques.</li>
-                <li>Nous préparons pour vous les consolidations pour les expéditions à expéditeurs multiples et assurons toutes les formalités obligatoires et légales.</li>
-                <li>Certains produits ou destination nécessitent une documentation particulière.</li>
-                <li>Certificats d’origine, légalisation de factures, passeports culturels et licences d’exportations, CITES ; nous maitrisons ces procédures nécessaires à l’exportation des marchandises sensibles que nous effectuons auprès des organismes d’état spécialisés pour votre compte.</li>
+                <%= t '.gestion_admin_texte_documentation_html'  %>
               </div>
             </div>
           </div>
@@ -147,10 +126,7 @@
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="100">
               <div class="services-description-2" id="services-description-2-reverse">
                 <div class="services-description-texte">
-                  <h3>Douane</h3>
-                  <li>Nous assurons toutes les formalités douanières d’exportation et d’importation pour des professionnels et des particuliers y compris la gestion des douanes temporaires ou sous carnet ATA.</li>
-                  <li>Les produits dont vous voudrez bien nous confier la charge sortent de l’ordinaire et font l’objet d’une vigilance douanière accrue entrainant parfois des contrôles physiques.</li>
-                  <li>En cas d’inspection douanière, ce sont nos propres équipes qui interviennent pour ouvrir les caisses et remballer la marchandise une fois l’inspection terminée.</li>
+                  <%= t '.gestion_admin_texte_douane_html'  %>
                 </div>
                 <div class="services-description-image">  
                   <%= image_tag('blog_3.jpg')%>
@@ -164,12 +140,7 @@
                 <%= image_tag('blog_1.jpg')%>
               </div>
               <div class="services-description-texte">
-                <h3>Assurance</h3>
-                <li>SHIP ANTIQUES est évidemment couverte par toutes les assurances nécessaires à son activité.</li>
-                <li>Les produits transportés étant, dans la majorité des cas, des exceptions aux contrats d’assurance habituels, nous proposons une assurance spécialement dédiée dite « AD VALOREM » pour vos expéditions.</li>
-                <li>Cette assurance assure vos antiquités et œuvres d’art sur la base de leur valeur.</li>
-                <li>En cas de casse complète ou perte de vos objets, notre assureur rembourse à la valeur d’achat (sur la base de la facture).</li>
-                <li>En cas de casse ou une restauration est possible, notre assureur prend en charge les frais de réparation (sur la base du devis de restauration). Possibilité de couvrir la perte de valeur dans le cas d’une œuvre d’art ou bien culturel.</li>
+                <%= t '.gestion_admin_texte_assurance_html'  %>
               </div>
             </div>
           </div>
@@ -183,8 +154,8 @@
 
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
-            <h2 class="text-color-ship">Transport multimodal</h2>
-            <p class="color-black-opacity-5">SHIP ANTIQUES met à disposition de ses clients une large palette de solutions de transport à choisir fonction du type de marchandise, de la destination et du volume. </p>
+            <h2 class="text-color-ship"><%= t '.tpt_multi_titre' %></h2>
+            <p class="color-black-opacity-5"><%= t '.tpt_multi_sous_titre' %></p>
           </div>
         </div>
 
@@ -193,17 +164,7 @@
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
             <div class="services-description-2" id="services-description-2-reverse">
               <div class="services-description-texte">
-                <h3>Transports maritime LCL/FCL</h3>
-                <p>Toutes les marchandises transportées par SHIP ANTIQUES en Fret maritime seront emballées en caisse. C’est un principe de fonctionnement qui nous permet aujourd’hui de limiter voire d’éliminer les risques de casse liés au transport.</p>
-                <p>Conteneur complet - FCL</p>
-                  <li>La solution la plus économique si vous avez du volume à expédier. </li>
-                  <li>Nous proposons des conteneurs 20’ (environ 25 m3) et 40’ dry ou High cube (grande hauteur) (environ 55 m3).</li>
-                  <li>Les empotages de conteneur sont effectués par nos équipes qui se charge de la sécurisation et du calage des caisses. </li>
-                  <br>
-                <p>Conteneur de groupage - LCL</p>
-                  <li>Conteneur partagé avec la marchandise d’autres clients.</li>
-                  <li>Cette solution nous permet de proposer des départs réguliers sur toutes les destinations à nos clients.</li>
-                  <li>La facturation s’effectue fonction du volume et de la destination. </li>
+                <%= t '.tpt_multi_tpt_maritime_html'  %>
               </div>
               <div class="services-description-image">  
                 <%= image_tag('blog_1.jpg')%>
@@ -217,16 +178,7 @@
                 <%= image_tag('blog_2.jpg')%>
               </div>
               <div class="services-description-texte">
-                <h3>Transports aériens - fret aérien et express</h3>
-                  <p>Fret aerien</p>
-                    <li>Plus rapide et sécurisé, le transport aérien est préconisé pour les petits volumes, la marchandise très fragile et à forte valeur.</li>
-                    <li>Nous proposons des transports sur vol cargo ou commerciaux fonction de la taille des caisses en privilégiant les vols directs pour éviter les transbordements et donc la multiplication des manipulation et ainsi limiter les risques</li>
-                    <br>
-                  <p>Fret express</p>
-                    <li>Le transport express type Fedex ou DHL est conseillé pour les petits volumes moins sensible et limité en valeur et permet un transport « door to door » sans avoir besoin de faire appel à un agent à destination pour le dédouanement.
-                    </li>
-                    <li>Attention, ce type de transport n’est pas possible pour tous les types de marchandises et impossible pour les cas particuliers nécessitant une documentation spécifique tel que les passeport culturel/ licence d’exportation ou les CITES.
-                    </li>
+                <%= t '.tpt_multi_tpt_aerien_html'  %>
               </div>
             </div>
           </div>
@@ -234,23 +186,7 @@
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="300">
             <div class="services-description-2" id="services-description-2-reverse">
               <div class="services-description-texte">
-                <h3>Transport routier national et international</h3>
-                  <p>Paris et région parisienne</p>
-                    <li>Les équipes SHIP ANTIQUES effectuent les enlèvements et les livraisons sur Paris et la Région parisienne.
-                    </li>
-                    <li>
-                      Les vendredi matin et lundi dédiés aux puces de St Ouen et le restant de la semaine fonction des besoins de nos clients.
-                    </li>
-                    <br>
-                  <p>National</p>
-                    <li>Notre réseau de transporteurs spécialisés nous permet également les enlèvements et ramassages sur toute la France de marchandise fragile et sans emballage.
-                    </li>
-                    <li>Nous proposons des transports dédiés « spéciaux » ou le camion est consacré entièrement à un client.
-                    </li>
-                    <br>
-                  <p>Groupage suisse</p>
-                    <li>Nous faisons régulièrement des groupages sur la Suisse et nous proposons aussi des camions complets sur toute la France et pays limitrophes. Pour ce type de transport, nous n’avons pas forcement besoins de mettre la marchandise en caisse car elle sera protégée par nos soins avec du matériel adapté (sauf en cas de marchandise très fragile type lustre)
-                    </li>
+                <%= t '.tpt_multi_tpt_routier_html'  %>
               </div>
               <div class="services-description-image">  
                 <%= image_tag('blog_1.jpg')%>

@@ -3,8 +3,8 @@
     <div class="row align-items-center justify-content-center text-center">
 
       <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
-        <h1 class="text-white font-weight-light text-uppercase font-weight-bold">Nous Rejoindre</h1>
-        <p class="breadcrumb-custom"><%= link_to "Accueil", root_path %> <span class="mx-2">&gt;</span> <span>Nous Rejoindre</span></p>
+        <h1 class="text-white font-weight-light text-uppercase font-weight-bold"><%= t '.titre'  %></h1>
+        <p class="breadcrumb-custom"><%= link_to t(".accueil"), root_path %> <span class="mx-2">&gt;</span> <span><%= t '.titre'  %></span></p>
       </div>
     </div>
   </div>
@@ -16,7 +16,7 @@
   <div class="container">
     <div class="row justify-content-center mb-5" data-aos="fade-up">
       <div class="col-md-7 text-center border-primary">
-        <h2 class="mb-0 text-color-ship">Nous Rejoindre</h2>
+        <h2 class="mb-0 text-color-ship"><%= t '.titre'  %></h2>
         <p class="color-black-opacity-5"></p>
       </div>
     </div>
@@ -26,9 +26,7 @@
             <div class="col-12 mb-5" data-aos="fade-up" data-aos-delay="200">
               <div class="unit-4 d-flex">      
                 <div>
-                  <p style="text-align: justify">Nous encourageons la prise de responsabilité, l’épanouissement des talents et favorisons l’évolution des carrières au sein de l’entreprise. <p>
-                  <p style="text-align: justify">Rejoindre Ship Antiques, c’est rejoindre une société dynamique, tournée vers l’innovation et offrant des défis motivants. Dans un esprit d’ouverture, de respect, d’initiative, nous vous invitons à venir partager avec nous votre goût des challenges et des succès.</p>
-                  <p style="text-align: justify">Vous pouvez nous adresser votre candidature <a href="mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#115;&#104;&#105;&#112;&#097;&#110;&#116;&#105;&#113;&#117;&#101;&#115;&#046;&#102;&#114;">en cliquant ici.</a> </p>                       
+                  <%= t '.nous_rejoindre_texte_html'  %>
                 </div>
               </div>
             </div>
@@ -36,7 +34,7 @@
       <% if results['resources'].empty? == false %>
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-7 text-center border-primary">
-            <h2 class="mb-0 text-color-ship"> Nos Annonces</h2>
+            <h2 class="mb-0 text-color-ship"> <%= t '.nos_annonces'  %></h2>
             <p class="color-black-opacity-5"></p>
           </div>
         </div>

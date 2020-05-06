@@ -30,4 +30,19 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  pages:
+    liens:
+      liens_utiles: "Useful Links"
+  shared:
+    _navbar:
+      a_propos_menu: 
+        a_propos: 'about us'
+      services_menu: 
+        services: 'services'
+      contacts_et_cotations_menu: 
+        contacts_et_cotations: 'contacts & quotes'
+      infos_pratiques_menu: 
+        infos_pratiques: "information"
+    _footer: 
+      a_propos: 'About us'
+      a_propos_texte: "13 enthousiastics people."

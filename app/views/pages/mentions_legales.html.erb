@@ -3,8 +3,8 @@
     <div class="row align-items-center justify-content-center text-center">
 
       <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
-        <h1 class="text-white font-weight-light text-uppercase font-weight-bold">Mentions Legales</h1>
-        <p class="breadcrumb-custom"><%= link_to "Accueil", root_path %> <span class="mx-2">&gt;</span> <span>Mentions Legales</span></p>
+        <h1 class="text-white font-weight-light text-uppercase font-weight-bold"><%= t '.titre' %></h1>
+        <p class="breadcrumb-custom"><%= link_to t(".accueil"), root_path %> <span class="mx-2">&gt;</span> <span><%= t '.titre' %></span></p>
       </div>
     </div>
   </div>
@@ -14,7 +14,7 @@
 	<div class="container">
 		<div class="row justify-content-center mb-5" data-aos="fade-up">
 			<div class="col-md-7 text-center border-primary">
-				<h2 class="mb-0 text-color-ship">MENTIONS LÉGALES</h2>
+				<h2 class="mb-0 text-color-ship"><%= t '.titre' %></h2>
 				<p></p>
 			</div>
 		</div>
@@ -25,20 +25,14 @@
 	      <div class="col-10 mb-4" data-aos="fade-up" data-aos-delay="100">
 	        <div class="unit-4 d-flex">
 	          <div>
-	            <p style="text-align: justify;">Ce site est édité par SHIP ANTIQUES.
-	            <br>
-	            Société par Actions Simplifiée (SAS) au capital de 23.000 euros, immatriculée au Registre du Commerce et des Sociétés sous le numéro 518 471 180. Établie au 138-140, rue des Rosiers, 93400 SAINT-OUEN (FRANCE).
-	            <br>
-	            Téléphone : 01.40.12.98.04
-	            <br>
-	            Hébergeur : OVH, 2 rue Kellermann, 59100 ROUBAIX.</p>
+	            <p style="text-align: justify;"><%= t '.mentions_legales_texte_html'  %></p>
 	          </div>
 	        </div>
 	      </div>
 
 		<div class="row justify-content-center mb-5" data-aos="fade-up">
 			<div class="col-md-7 text-center border-primary">
-				<h2 class="mb-0 text-color-ship">DONNÉES PERSONNELLES</h2>
+				<h2 class="mb-0 text-color-ship"><%= t ".donnees_personnelles" %></h2>
 				<p></p>
 			</div>
 		</div>
@@ -49,29 +43,14 @@
 	      <div class="col-10 mb-4" data-aos="fade-up" data-aos-delay="100">
 	        <div class="unit-4 d-flex">
 	        	<div>
-		            <h3>LICENCE</h3>
-		            <p style="text-align: justify;">En se connectant au site de Ship Antiques, et de ce seul fait, l’utilisateur reconnaît accepter de la SAS SHIP ANTIQUES, éditrice du site, une licence dont il s´engage à respecter les termes.
-		            <br>
-					Le site Ship Antiques ne demande pas d’enregistrement à ses visiteurs, et ne procède à aucun enregistrement nominatif pour la consultation de ses pages.</p>
-
-		            <h3>COOKIES</h3>
-		            <p style="text-align: justify;">Le site de Ship Antiques utilise la technique des « cookies » pour une seule et simple raison : Nous aider à mesurer de façon transversale l’activité de nos visiteurs sur le site et nous permettre ainsi de proposer une expérience toujours mieux adaptée aux attentes de nos lecteurs.</p>
-
-		            <h3>DROITS ET DEVOIRS</h3>
-		            <p style="text-align: justify;">Dans tous les cas, l’utilisateur dispose des droits (d’accès et de rectification, notamment) prévus par la loi 78-17 du 6 janvier 1978 dite « Informatique et Libertés ».
-		            <br>
-					Pour l’exercice de ses droits, l’utilisateur est invité à s’adresser par courriel <a href="mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#115;&#104;&#105;&#112;&#097;&#110;&#116;&#105;&#113;&#117;&#101;&#115;&#046;&#102;&#114;">en cliquant ici</a>. Il peut aussi écrire à Ship Antiques, 134-140, rue des Rosiers, 93400 SAINT-OUEN..
-					<br>
-					L’utilisateur trouvera des informations sur ses droits et devoirs et sur la protection des données individuelles sur le site de la Commission Nationale Informatique et Libertés (www.cnil.fr)
-					<br>
-					Les utilisateurs du site de Ship Antiques sont invités à faire connaître à Ship Antiques leurs remarques sur d’éventuels dysfonctionnements du site du point de vue des libertés individuelles.</p>
+		            <%= t ".donnees_personnelles_texte_html" %>
 	        	</div>
 	        </div>
 	    </div>
 
 		<div class="row justify-content-center mb-5" data-aos="fade-up">
 			<div class="col-md-7 text-center border-primary">
-				<h2 class="mb-0 text-color-ship">CONDITIONS GÉNÉRALES DE VENTE</h2>
+				<h2 class="mb-0 text-color-ship"><%= t '.conditions_generales'  %></h2>
 				<p></p>
 			</div>
 		</div>

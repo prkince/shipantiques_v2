@@ -1,0 +1,203 @@
+fr:
+  pages:
+    liens:
+      accueil: 'Accueil'
+      liens_utiles: "Liens Utiles"
+
+    clients:
+      accueil: 'Accueil'
+      titre: 'Nos clients'
+
+    infos:
+      accueil: 'Accueil'
+      titre: "Nous trouver"
+
+    contact:
+      accueil: 'Accueil'
+      titre: 'Contact & Cotations'
+
+    services:
+      accueil: 'Accueil'
+      titre: 'Nos services'
+      enl_liv_manut_titre: "Enlevement, Livraison et Manutention"
+      enl_liv_manut_texte_html: "
+        <p>Nos équipes de chauffeurs/ripeurs ont l’expérience de la manipulation et du transport des marchandises fragiles non emballées.</p>
+        <p>Nous utilisons du matériel adapté et professionnel (camion capitonné, couvertures, divers matériel d’emballage…).</p>
+        <p>Pour les pièces les plus fragiles et nécessitant un emballage directement sur site, nos équipes d’emballeurs professionnels interviennent directement pour la protection et la mise en caisse chez l’expéditeur avant le transport.</p>
+        <p>Nous intervenons régulièrement sur les puces de St Ouen, chez les antiquaires, dans les galeries d’art, auprès des maisons de vente et chez des particuliers.</p>
+        <p>Nous participons également à la mise en place et au démontage d’expositions dans des lieux prestigieux.</p>"
+      protection_emballage_titre: "Protection et emballage"
+      protection_emballage_texte_html: "
+        <p>Tous nos emballages sont effectués en internes par nos équipes de layetiers/emballeurs dans notre atelier de Roissy/CDG.</p>
+        <p>Les protections et emballages sont toujours réalisés sur mesure.</p>
+        <p>Fonction du type de marchandise et du mode de transport choisi, nous proposons différents types de caisses et de protection et emballage de la marchandise.</p>
+        <p>Simple carton, TC SUPER, caisson CP15, caisse bois barrée italienne et maritime P4, caisse dite « musée », nous saurons toujours vous proposer la solution d’emballage la plus adapté à la marchandise et la plus sure pour satisfaire nos clients.</p>                         
+        <p>Tous nos materiaux d’emballage respectent les standards de la profession et le bois utilisé pour nos caisses est traité et aux normes internationales (NIMP15).</p> "
+      stock_et_gestion_titre: "Stockage et Gestion de Stock"
+      stock_et_gestion_texte_html: "
+        <p>Nous proposons différentes solutions fonction de vos types d’emballages et de produits. Nous pouvons stocker en particulier de la marchandise sans emballage en toute sécurité.</p>
+        <p>Une partie de notre entrepôt est dédiée au stockage de vos marchandises.</p>
+        <p>Des solutions de gestion de stock sont aussi proposé pour notre clientèle professionnelle.</p>
+        <p>Nous gérons pour vous votre stock de mobilier et d’objets de décoration pour vos projets :</p>
+        <li>Gestion des stocks au jour le jour avec inventaire complet.</li>
+        <li>Mise à votre disposition notre réseaux de professionnels du secteur (ébénistes/vernisseurs, tapissiers, restaurateurs, etc.) et organisation des transferts via nos navettes.</li>
+        <li>Organisation des présentations, mise en place, préparations préliminaires avant emballage et expéditions.</li>"
+      gestion_admin_titre: "Gestion administrative : Documentation, Douane et Assurances"
+      gestion_admin_texte_html: "
+        <p style='text-align: center;'>A produit unique, documentation spécifique !</p>
+        <p style='text-align: center;'>Notre expertise nous permet de gérer pour le compte de nos clients les documents d’accompagnements nécessaires au bon déroulement des chaines logistiques.</p>
+        <p style='text-align: center;'>Nous opérons toujours sous la couverture d’assurances solides et dédiées à ces marchandises sensibles.</p>"
+      gestion_admin_texte_documentation_html: "
+        <h3>Documentation</h3>
+        <p>Toutes les marchandises transportées par SHIP ANTIQUES en Fret maritime seront emballées en caisse. C’est un principe de fonctionnement qui nous permet aujourd’hui de limiter voire d’éliminer les risques de casse liés au transport.</p>
+        <li>Point clés pour un passage en douane et une exportation sans soucis au départ comme à l’arrivée, une documentation exhaustive et complète est primordiale dans le cadre de nos chaines logistiques.</li>
+        <li>Nous préparons pour vous les consolidations pour les expéditions à expéditeurs multiples et assurons toutes les formalités obligatoires et légales.</li>
+        <li>Certains produits ou destination nécessitent une documentation particulière.</li>
+        <li>Certificats d’origine, légalisation de factures, passeports culturels et licences d’exportations, CITES ; nous maitrisons ces procédures nécessaires à l’exportation des marchandises sensibles que nous effectuons auprès des organismes d’état spécialisés pour votre compte.</li>"
+      gestion_admin_texte_douane_html: "
+        <h3>Douane</h3>
+        <li>Nous assurons toutes les formalités douanières d’exportation et d’importation pour des professionnels et des particuliers y compris la gestion des douanes temporaires ou sous carnet ATA.</li>
+        <li>Les produits dont vous voudrez bien nous confier la charge sortent de l’ordinaire et font l’objet d’une vigilance douanière accrue entrainant parfois des contrôles physiques.</li>
+        <li>En cas d’inspection douanière, ce sont nos propres équipes qui interviennent pour ouvrir les caisses et remballer la marchandise une fois l’inspection terminée.</li>"
+      gestion_admin_texte_assurance_html: "
+        <h3>Assurance</h3>
+        <li>SHIP ANTIQUES est évidemment couverte par toutes les assurances nécessaires à son activité.</li>
+        <li>Les produits transportés étant, dans la majorité des cas, des exceptions aux contrats d’assurance habituels, nous proposons une assurance spécialement dédiée dite « AD VALOREM » pour vos expéditions.</li>
+        <li>Cette assurance assure vos antiquités et œuvres d’art sur la base de leur valeur.</li>
+        <li>En cas de casse complète ou perte de vos objets, notre assureur rembourse à la valeur d’achat (sur la base de la facture).</li>
+        <li>En cas de casse ou une restauration est possible, notre assureur prend en charge les frais de réparation (sur la base du devis de restauration). Possibilité de couvrir la perte de valeur dans le cas d’une œuvre d’art ou bien culturel.</li>"
+
+      tpt_multi_titre: "Transport Multimodal"
+      tpt_multi_sous_titre: "SHIP ANTIQUES met à disposition de ses clients une large palette de solutions de transport à choisir fonction du type de marchandise, de la destination et du volume."
+      tpt_multi_tpt_maritime_html: "
+        <h3>Transports maritime LCL/FCL</h3>
+        <p>Toutes les marchandises transportées par SHIP ANTIQUES en Fret maritime seront emballées en caisse. C’est un principe de fonctionnement qui nous permet aujourd’hui de limiter voire d’éliminer les risques de casse liés au transport.</p>
+        <p>Conteneur complet - FCL</p>
+          <li>La solution la plus économique si vous avez du volume à expédier. </li>
+          <li>Nous proposons des conteneurs 20’ (environ 25 m3) et 40’ dry ou High cube (grande hauteur) (environ 55 m3).</li>
+          <li>Les empotages de conteneur sont effectués par nos équipes qui se charge de la sécurisation et du calage des caisses. </li>
+        <br>
+        <p>Conteneur de groupage - LCL</p>
+          <li>Conteneur partagé avec la marchandise d’autres clients.</li>
+          <li>Cette solution nous permet de proposer des départs réguliers sur toutes les destinations à nos clients.</li>
+          <li>La facturation s’effectue fonction du volume et de la destination. </li>"
+      tpt_multi_tpt_aerien_html: "
+        <h3>Transports aériens - fret aérien et express</h3>
+        <p>Fret aerien</p>
+          <li>Plus rapide et sécurisé, le transport aérien est préconisé pour les petits volumes, la marchandise très fragile et à forte valeur.</li>
+          <li>Nous proposons des transports sur vol cargo ou commerciaux fonction de la taille des caisses en privilégiant les vols directs pour éviter les transbordements et donc la multiplication des manipulation et ainsi limiter les risques</li>
+          <br>
+        <p>Fret express</p>
+          <li>Le transport express type Fedex ou DHL est conseillé pour les petits volumes moins sensible et limité en valeur et permet un transport « door to door » sans avoir besoin de faire appel à un agent à destination pour le dédouanement.
+          </li>
+          <li>Attention, ce type de transport n’est pas possible pour tous les types de marchandises et impossible pour les cas particuliers nécessitant une documentation spécifique tel que les passeport culturel/ licence d’exportation ou les CITES.
+          </li>"
+      tpt_multi_tpt_routier_html: "
+        <h3>Transport routier national et international</h3>
+        <p>Paris et région parisienne</p>
+          <li>Les équipes SHIP ANTIQUES effectuent les enlèvements et les livraisons sur Paris et la Région parisienne.
+          </li>
+          <li>
+            Les vendredi matin et lundi dédiés aux puces de St Ouen et le restant de la semaine fonction des besoins de nos clients.
+          </li>
+          <br>
+        <p>National</p>
+          <li>Notre réseau de transporteurs spécialisés nous permet également les enlèvements et ramassages sur toute la France de marchandise fragile et sans emballage.
+          </li>
+          <li>Nous proposons des transports dédiés « spéciaux » ou le camion est consacré entièrement à un client.
+          </li>
+          <br>
+        <p>Groupage suisse</p>
+          <li>Nous faisons régulièrement des groupages sur la Suisse et nous proposons aussi des camions complets sur toute la France et pays limitrophes. Pour ce type de transport, nous n’avons pas forcement besoins de mettre la marchandise en caisse car elle sera protégée par nos soins avec du matériel adapté (sauf en cas de marchandise très fragile type lustre)
+          </li>"
+
+    specialites:
+      accueil: 'Accueil'
+      titre: 'Nos specialités'
+
+    mentions_legales:
+      accueil: 'Accueil'
+      titre: 'Mentions Legales'
+      mentions_legales_texte_html: 
+        "Ce site est édité par SHIP ANTIQUES.
+        <br>
+        Société par Actions Simplifiée (SAS) au capital de 23.000 euros, immatriculée au Registre du Commerce et des Sociétés sous le numéro 518 471 180. Établie au 138-140, rue des Rosiers, 93400 SAINT-OUEN (FRANCE).
+        <br>
+        Téléphone : 01.40.12.98.04
+        <br>
+        Hébergeur : OVH, 2 rue Kellermann, 59100 ROUBAIX."
+      donnees_personnelles: "Données personnelles"
+      donnees_personnelles_texte_html: "
+        <h3>LICENCE</h3>
+          <p style='text-align: justify;'>En se connectant au site de Ship Antiques, et de ce seul fait, l’utilisateur reconnaît accepter de la SAS SHIP ANTIQUES, éditrice du site, une licence dont il s´engage à respecter les termes.
+          <br>
+          Le site Ship Antiques ne demande pas d’enregistrement à ses visiteurs, et ne procède à aucun enregistrement nominatif pour la consultation de ses pages.</p>
+
+        <h3>COOKIES</h3>
+          <p style='text-align: justify;'>Le site de Ship Antiques utilise la technique des « cookies » pour une seule et simple raison : Nous aider à mesurer de façon transversale l’activité de nos visiteurs sur le site et nous permettre ainsi de proposer une expérience toujours mieux adaptée aux attentes de nos lecteurs.</p>
+          <h3>DROITS ET DEVOIRS</h3>
+          <p style='text-align: justify;'>Dans tous les cas, l’utilisateur dispose des droits (d’accès et de rectification, notamment) prévus par la loi 78-17 du 6 janvier 1978 dite « Informatique et Libertés ».
+          <br>
+          Pour l’exercice de ses droits, l’utilisateur est invité à s’adresser par courriel <a href='mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#115;&#104;&#105;&#112;&#097;&#110;&#116;&#105;&#113;&#117;&#101;&#115;&#046;&#102;&#114;'>en cliquant ici</a>. Il peut aussi écrire à Ship Antiques, 134-140, rue des Rosiers, 93400 SAINT-OUEN..
+          <br>
+          L’utilisateur trouvera des informations sur ses droits et devoirs et sur la protection des données individuelles sur le site de la Commission Nationale Informatique et Libertés (www.cnil.fr)
+          <br>
+          Les utilisateurs du site de Ship Antiques sont invités à faire connaître à Ship Antiques leurs remarques sur d’éventuels dysfonctionnements du site du point de vue des libertés individuelles.</p>" 
+      conditions_generales: "conditions generales de vente"
+
+    nous_rejoindre:
+      accueil: 'Accueil'
+      titre: 'Nous Rejoindre'
+      nous_rejoindre_texte_html: "
+        <p style='text-align: justify'>Nous encourageons la prise de responsabilité, l’épanouissement des talents et favorisons l’évolution des carrières au sein de l’entreprise. <p>
+        <p style='text-align: justify'>Rejoindre Ship Antiques, c’est rejoindre une société dynamique, tournée vers l’innovation et offrant des défis motivants. Dans un esprit d’ouverture, de respect, d’initiative, nous vous invitons à venir partager avec nous votre goût des challenges et des succès.</p>
+        <p style='text-align: justify'>Vous pouvez nous adresser votre candidature <a href='mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#115;&#104;&#105;&#112;&#097;&#110;&#116;&#105;&#113;&#117;&#101;&#115;&#046;&#102;&#114;'>en cliquant ici.</a> </p>"
+      nos_annonces: "Nos Annonces"
+  shared:
+    _navbar:
+      a_propos_menu:
+        a_propos: 'a propos'
+        ship_antiques: 'ship antiques'
+        nos_specialites: 'nos specialites'
+        nos_clients: 'nos clients'
+      services_menu:
+        services: 'services'
+        enl_liv_manut: "Enlevement, Livraison et Manutention"
+        protection_emballage: "Protection et emballage"
+        stock_et_gestion: "Stockage et Gestion de Stock"
+        gestion_admin: "Gestion administrative : Documentation, Douane et Assurances"
+        tpt_multi: "Transport Multimodal"
+      contacts_et_cotations_menu:
+        contacts_et_cotations: 'contacts & cotations'
+        demande_cot: 'Demande de Cotation'
+        nous_trouver: "Nous trouver"
+      infos_pratiques_menu:
+        infos_pratiques: "infos pratiques"
+        mentions_legales: "Mentions Légales"
+        nous_rejoindre: "Nous rejoindre"
+        liens_utiles: "Liens Utiles"
+
+    _footer: 
+      a_propos: 'A Propos'
+      a_propos_texte: "Composée d'une jeune équipe de treize personnes, Ship Antiques propose depuis 2009 des solutions d'emballage et de transport pour tous les types de marchandises, et vers toutes les destinations. Fortement orientée vers l'Asie et les États-Unis, Ship Antiques est devenue en quelques années incontournable marché de l'art, des antiquités et du mobilier d'exception."
+      services: 'Services'
+      nos_clients: 'Nos Clients'
+      infos_pratiques: "Infos Pratiques"
+      trouvez_nous: "Trouvez-nous sur :"
+    
+    _infos:
+      titre: 'nous trouver'
+      contactez_nous: 'Contactez-nous par Email'
+      demande_devis: 'Demande de devis'
+      address_1: "SAS (Siège Social)"
+      address_2: "Adresse"
+      address_3: "138, rue des rosiers, 93400 Saint Ouen"
+      address_4: "Marché Dauphine, stand 24-25-26"
+      phone_1: "Téléphone"
+      phone_2: "+ 33 1 40 12 98 04"
+      accueil_equipe_html: "Notre équipe vous accueille au Marché Dauphine, stand 24-25-26, du vendredi au lundi de 9h30 à 18h00, et tous les jours par email ou téléphone."
+      address_depot_1_html: "SAE - SHIP ANTIQUES EMBALLAGE"
+      address_depot_2_html: "Adresse"
+      address_depot_3_html: "154 allée des érables - BAT A10/11/12"
+      address_depot_4_html: "ZI Paris nord 2"
+      address_depot_5_html: "93420 Villepinte"
