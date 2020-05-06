@@ -153,24 +153,76 @@ fr:
         <p style='text-align: justify'>Rejoindre Ship Antiques, c’est rejoindre une société dynamique, tournée vers l’innovation et offrant des défis motivants. Dans un esprit d’ouverture, de respect, d’initiative, nous vous invitons à venir partager avec nous votre goût des challenges et des succès.</p>
         <p style='text-align: justify'>Vous pouvez nous adresser votre candidature <a href='mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#115;&#104;&#105;&#112;&#097;&#110;&#116;&#105;&#113;&#117;&#101;&#115;&#046;&#102;&#114;'>en cliquant ici.</a> </p>"
       nos_annonces: "Nos Annonces"
+
+    home:
+      texte_home_html: "
+        <p class='text-white font-weight-light'>Bienvenue chez Ship Antiques, votre partenaire pour la collecte, l’emballage, le transport et le dédouanement de vos antiquités et objets d’art.</p>
+        <p class='text-white font-weight-light' >Nos capacités opérationnelles font la difference.</p>
+        <p class='text-white font-weight-light'>Notre équipe jeune, professionnelle et dynamique  vous accueille au Marché Dauphine, stand 24/25/26, du vendredi au lundi de 9h30 à 18h00, et tous les jours par email (lien email) ou téléphone au +33 (1) 40 12 98 04.
+        Specialiste du transport d'œuvres d'art, d'antiquités et d'objets fragiles, c'est sur le terrain que nos equipes font la différence. Transports locaux, emballages, stockage sont les étapes critiques de la chaine logistique dans notre métier. Elle nécessite un soin particulier, de l’expérience et une forte capacité d’adaptation toutes ces opérations sont réalisés en internes par du personnel SHIP ANTIQUES. </p>"
+      a_propos_section: 
+        a_propos: "A propos"
+        a_propos_texte_html: "
+          <p style='text-align: justify;'><b><i>SHIP ANTIQUES</i></b> est un commissionnaire de transport international spécialisée dans les antiquités, les œuvres d’art et les objets fragiles.</p>
+          <p style='text-align: justify;'>Nous sommes situés au cœur des puces de St Ouen, plus grand marché dédié aux antiquités dans le monde pour la partie administrative et commerciale.</p>
+          <p style='text-align: justify;'>C’est dans cet environnement fabuleux et atypique que nos équipes jeunes, dynamiques et internationales accueillent et accompagnent notre clientèle venue du monde entier.</p>
+          <p style='text-align: justify;'>Toutes les opérations et la coordination des chaines logistiques spécifiques à ces produits sont organisées sur ce site au plus près de nos clients et fournisseurs. Notre réseau international d’agents spécialisés nous permet d’exporter et d’importer dans la plupart des pays.</p>
+          <p style='text-align: justify;'>Nous sommes ouverts et disponibles 7 jours sur 7 de 10h à 18h.</p>
+          <p style='text-align: justify;'>Nous disposons également d’un entrepôt sécurisé à Roissy/Charles de Gaulle dédié à l’emballage et au stockage des marchandises confiées par nos clients.</p>
+          <p style='text-align: justify;'>Nos équipes de chauffeurs et d’emballeurs professionnels assurent la manipulation et l’emballage de vos objets fragiles et précieux. Toutes ces opérations à risques sont gérées en internes.</p>" 
+      specialites_section: 
+        nos_specialites: "Nos Spécialités"
+        nos_specialites_text_top: "En plus de sa spécialité antiquités et œuvres d’art, SHIP ANTIQUES a développé des solutions spécifiques pour ses clients particuliers et professionnels adaptés à leurs besoins"
+        puces_titre: "Puces de St Ouen, les services dédiés"
+        puces_details: "SHIP ANTIQUES est au cœur des puces de St Ouen depuis son origine. Nous sommes ouvert 7 jours sur 7 de 10H à 18H. Nous sommes à la disposition de nos clients, marchands et acheteurs, tous les weekends d’ouverture."
+        boutique_titre: "Projet boutique"
+        boutique_details: "Ce service, est dédié aux professionnels de la décoration : décorateurs, entreprises développant des réseaux de boutiques ou spécialisé dans l’évènementiel et les projets."
+        foire_titre: "Foires / Expositions / Musées"
+        foire_details_1: "Foire: Service destiné aux professionnels, antiquaires français ou étrangers, nous proposons les mêmes solutions que pour les puces à nos clients sur les foires d’antiquités."
+        foire_details_2: "Expositions, Evenements musées: Nous sommes présents sur les principales expositions et évènements français. (maison et objet, biennale des antiquaires, paris art fair, asia now, paris photo, PAD, etc.)"
+      
+      clients_section:
+        nos_clients: "Nos Clients"
+        galeries_titre: "Galleries d'art, Artistes,  antiquaires et les maisons de vente aux encheres"
+        galeries_details: "Notre large reseau d'agents spécialisés nous permet de gerer vos expeditions internationales efficacement et en toute sécurité. Nous pouvons opérés depuis et vers la majorité des principales villes mondiales. En plus des formalités douanieres, nous pouvons  gerer pour vous toutes la documentation specifiques telle que les CITES, licence emport/export, carnet ATA ou autres certificats locaux ou internationaux."
+        architectes_titre: "Architectes, architectes d'interieur et decorateurs"
+        architectes_details: "Nous sommes reconnus pour notre expertise et nous pouvons offrir à nos clients professionnels un service d'exception grace à notre experience, nos moyens et nos equipes spécialisés. Nous gerons pour vous tout vos projets complexes et de haut niveau."
+        marques_titre: "Marques de luxe : magasins uniques, projets et evenements spéciaux"
+        marques_details: "Nous offrons un sercice spécial pour les grandes marques, leurs magasins et les projets spéciaux. Notre 'projet boutique' prend en charge l'essentiel des contraintes de vos projets en termes de logistique incluant egalement un service de source de marchandises. Nous gerons les stocks pour vous et nous occupons de toute la logistique y compris la mise en place et l'installation."
+        particuliers_titre: "Collectionneurs privés et particuliers"
+        particuliers_details: "Avec plus de dix ans d'experience, SHIP ANTIQUES peux gerer les transports internationaux les plus complexes d'œuvres d'art et de pieces de collections. Nous vous proposons une gamme complete  de service dédiés : enlevement, protection et mise en caisse, solution de transport adaptés à la marchandise. Nous gérons egalement les formalités douanieres."
+
+      services_section:
+        nos_services: "Nos Services"
+        enlevement_titre: "Enlevement, livraison et manutention"
+        enlevement_details: "Nos équipes de chauffeurs/ripeurs ont l’expérience de la manipulation et du transport des marchandises fragiles non emballées."
+        protection_titre: "Protection et emballage"
+        protection_details: "Tous nos emballages sont effectués en internes par nos équipes de layetiers/emballeurs dans notre atelier de Roissy/CDG."
+        stockage_titre: "Stockage et gestion de stock"
+        stockage_details: "Nous proposons différentes solutions fonction de vos types d’emballages et de produits. Nous pouvons stocker en particulier de la marchandise sans emballage en toute sécurité."
+        gestion_titre: "Gestion administrative : documentation, douane et assurances"
+        gestion_details: "Notre expertise nous permet de gérer pour le compte de nos clients les documents d’accompagnements nécessaires au bon déroulement des chaines logistiques."
+        transports_titre: "Transports Multimodal"
+        transports_details: "SHIP ANTIQUES met à disposition de ses clients une large palette de solutions de transport à choisir fonction du type de marchandise, de la destination et du volume."
+
   shared:
     _navbar:
       a_propos_menu:
-        a_propos: 'a propos'
-        ship_antiques: 'ship antiques'
-        nos_specialites: 'nos specialites'
-        nos_clients: 'nos clients'
+        a_propos: 'A Propos'
+        ship_antiques: 'Ship Antiques'
+        nos_specialites: 'Nos Specialités'
+        nos_clients: 'Nos Clients'
       services_menu:
         services: 'services'
         enl_liv_manut: "Enlevement, Livraison et Manutention"
-        protection_emballage: "Protection et emballage"
+        protection_emballage: "Protection et Emballage"
         stock_et_gestion: "Stockage et Gestion de Stock"
         gestion_admin: "Gestion administrative : Documentation, Douane et Assurances"
         tpt_multi: "Transport Multimodal"
       contacts_et_cotations_menu:
-        contacts_et_cotations: 'contacts & cotations'
+        contacts_et_cotations: 'Contacts & Cotations'
         demande_cot: 'Demande de Cotation'
-        nous_trouver: "Nous trouver"
+        nous_trouver: "Nous Trouver"
       infos_pratiques_menu:
         infos_pratiques: "infos pratiques"
         mentions_legales: "Mentions Légales"
