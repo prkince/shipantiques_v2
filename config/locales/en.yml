@@ -43,3 +43,6 @@ en:
         contacts_et_cotations: 'contacts & quotes'
       infos_pratiques_menu: 
         infos_pratiques: "information"
+    _footer: 
+      a_propos: 'About us'
+      a_propos_texte: "13 enthousiastics people."
