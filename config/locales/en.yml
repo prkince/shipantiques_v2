@@ -1,48 +1,267 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
   pages:
     liens:
+      accueil: 'Home'
       liens_utiles: "Useful Links"
+
+    clients:
+      accueil: 'Home'
+      titre: 'Our clients'
+      gal_titre: "Fine Art Galleries, Arists,  Antiques Dealers, auctioneers"
+      gal_texte: "Our extensive network of international fine art logistics agents allows us to handle your shipments safely and efficiently to or from almost any major city worldwide. As well as customs clearance, we are able to arrange all other required import/export documentation including CITES (endangered species); Import/Export licenses; ATA Carnet; and Antique Certification."
+      archi_titre: "Architects, interior designers and decorators"
+      archi_texte: "With a truly global scope we are able to offer clients an exceptional service utilizing our in-depth knowledge, experience, facilities and highly trained technicians thus ensuring the efficient handling of complex projects to high standards."
+      marques_titre: "Luxury brands : stores & special projects"
+      marques_texte: "Some of the services that we provide specifically for luxury brands include: Transportation: Local Collections & Deliveries. Inventory Management: update Inventory on request. Storage: High Security, both shared and exclusive-use spaces. Customized packing: In-house crate shop capable of safely packing unique objects of all shapes and sizes. Artwork Installation Teams: White gloves services to safely move and installing delicate artwork and chandeliers. Fully Comprehensive Insurance."
+      particuliers_titre: "Private collectors and nonprofessionals"
+      particuliers_texte: "With 10 years of experience, Ship Antiques can manage the most complex international transport of fine art and antiques collections. We provide a full range of packing, crating, installations and transport services and deal with international customs clearance formalities."
+
+
+    infos:
+      accueil: 'Home'
+      titre: "Find us"
+
+    contact:
+      accueil: 'Home'
+      titre: 'Contact & Cotations'
+
+    services:
+      accueil: 'Home'
+      titre: 'Our services'
+      enl_liv_manut_titre: "Pick-up, delivery and handling"
+      enl_liv_manut_texte_html: "
+        <p>Our experienced team of drivers/packers are perfectly used to manipulating fragile and delicate items.</p>
+        <p>Our handling accessories, such as padded trucks, covers and packing material are professional and perfectly adapted.</p>
+        <p>Our professional teams of packers are capable of going directly to the pick-up site to prepare the items, pack them on site in a crate so that they are ready for dispatch.</p>
+        <p>We work regularly with the merchants around our offices in the Saint Ouen flea-market as well as with antique shops, art galleries, auctioneers and simple individuals.</p>
+        <p>We can also give assistance in the handling and placing of exhibited objects in famousand prestigious places.</p>"
+      protection_emballage_titre: "Protection and packing"
+      protection_emballage_texte_html: "
+        <p>All the packing is carried out by our own teams in our warehouse in Roissy, near the Paris airport.</p>
+        <p>The wrapping and packing of objects is made to measure.</p>
+        <p>We can offer different types and classes of protection, packing and crates with respect to the type of merchandise and the means of transport.</p>
+        <p>From a simple cardboard box, TC Super, CP15 crate, P4 seaworthy Italian wooden crate or a 'museum' class crate, we can offer the best and safest packing solutions to satisfy our customers' requirements.</p>                         
+        <p>All our packing materials are in conformity with the professional standards. Our wooden crates respect the international NIMP 15 standard.</p> "
+      stock_et_gestion_titre: "Storage and management of storage"
+      stock_et_gestion_texte_html: "
+        <p>We can offer different solutions depending on the nature of the object and the type of packing used. We can even safely and securely store unpacked items.</p>
+        <p>Part of our warehouse is dedicated to the storage of customers' items.</p>
+        <p>Storage management solutions are available for our professional customers.</p>
+        <p>We can manage your stocks of furniture and artwork in our warehouse for your projects such as :</p>
+        <li>Management of stock on a daily basis including complete inventory.</li>
+        <li> Giving access to our network of professionals in this domain (cabinetmakers, varnishers, upholsterers,restorers, etc...) and organize transfer via our vehicles.</li>
+        <li>Organizing the presentation, setting up and preliminary preparation before packing and dispatch.</li>"
+      gestion_admin_titre: "Administration management : Documentation, customs and insurance"
+      gestion_admin_texte_html: "
+        <p style='text-align: center;'>Each specific item needs specific documentation.</p>
+        <p style='text-align: center;'>With our expertise, we are capable of managing, on behalf of our customers, creating the specific documentation that is needed to accompany the items as they go through the logistic chains and most particularly through the Customs.</p>
+        <p style='text-align: center;'>Our business is covered by a fully comprehensive and solid insurance  which is specialized in this particular domain.</p>"
+      gestion_admin_texte_documentation_html: "
+        <h3>Documentation</h3>
+        <li>When exporting special merchandise, from departure to arrival, full and comprehensive documentation is a key point for going easily through the logistic chain and especially Customs.</li>
+        <li>We can prepare consolidated consignments for dispatch of multiple shippers transport in respect to all the compulsory and legal formalities.</li>
+        <li>Certain objects or destinations can require specific documentation.</li>
+        <li>We are experts in the necessary procedures for exporting specific merchandise. We can carry out, on your behalf, all the necessary procedures and gather the required documentation such as certificates of origin, legal invoices, cultural passports, export licenses, CITES certificates, etc...</li>"
+      gestion_admin_texte_douane_html: "
+        <h3>Customs</h3>
+        <li>We can carry out all the export and import Customs formalities for professionals and individuals, including temporary or ATA carnet formalities.</li>
+        <li>We are aware that your rare and valuable objects, as well as the accompanying documents, will attract special attention by Customs who are even capable of carrying out physical inspection.</li>
+        <li>If Customs raise a request for a physical inspection, our own personnel will carry out the unpacking beforehand and repack the items after the inspection."
+      gestion_admin_texte_assurance_html: "
+        <h3>Insurance</h3>
+        <li>SHIP ANTIQUES is evidently fully insured for carrying out this type of business.</li>
+        <li>The nature of the transported objects , in most cases, is outside the scope of usual insurance coverage. For this reason, we can offer a special 'Ad Valorem' insurance coverage which is specifically dedicated to this type of transport.</li>
+        <li>This insurance covers your antiques and artworks with respect to their real value.</li>
+        <li>In the case of complete destruction or loss of your objects, our insurer will reimburse to the original invoiced value.</li>
+        <li>In case of damage with a possible restoration, our insurer will reimburse the cost of the restoration (based on the restoration quote). The insurance will eventually cover the loss of value in the case of a work of art or cultural object.</li>"
+
+      tpt_multi_titre: "Multimodal transport"
+      tpt_multi_sous_titre: "SHIP ANTIQUES can offer a large range of transport solutions which can be chosen depending on the nature of the merchandise, the destination and the volume."
+      tpt_multi_tpt_maritime_html: "
+        <h3>LCL/FCL maritime transport</h3>
+        <p>All merchandise that is shipped by SHIP ANTIQUES via maritime freight will be packed in crates. It is a fundamental condition that allows us to limit or even eliminate any risks of damage during the transport.</p>
+        <p>FCL - Full container</p>
+          <li>The most economical solution for dispatching large volumes.</li>
+          <li>We can offer 20' (about 25 m3) and 40'  (55 m3) dry or High Cube containers.</li>
+          <li>Our own teams load the objects into the container  which ensures that the crates are correctly locked in place and secured.</li>
+        <br>
+        <p>LCL - Shared containers</p>
+          <li>Shared container with the merchandise of other customers.</li>
+          <li>This solution allows the dispatch of objects on a regular basis to all our customers destinations.</li>
+          <li>Invoicing is based on the volume used and the destination.</li>"
+      tpt_multi_tpt_aerien_html: "
+        <h3>Air freight and express deliveries</h3>
+        <p>Air freight</p>
+          <li>Fast and safer, air freight is recommended for sending small volumes as well as fragile and valuable objects.</li>
+          <li>We propose air freight via cargo or commercial flights depending on the size of the crates. We prefer using direct flights in order to reduce the risk of damage due to the unloading and reloading in intermediate airports.</li>
+          <br>
+        <p>Express delivery</p>
+          <li>Express delivery, such as via FedEx or DHL, is recommended for small volumes with low value and has the advantage of a 'door to door' service. It also avoids the need on the destination site for a transport agent for Customs formalities.
+          </li>
+          <li>Attention : This kind of transport is not suitable for dispatching any type of object. For example, it cannot meet the specific formalities needed for sending items that require cultural passports, export licenses or CITES documentation etc...
+          </li>"
+      tpt_multi_tpt_routier_html: "
+        <h3>National and international road freight</h3>
+        <p>Paris and it's suburbs.</p>
+          <li>The SHIP ANTIQUES team is capable of collecting and delivering items within Paris and its suburbs.
+          </li>
+          <li>
+            The company activity is mainly dedicated to the Saint Ouen flea market activity all Monday and Friday mornings. On the other days, any customers are welcome to contact us.
+          </li>
+          <br>
+        <p>National</p>
+          <li>Our network of specialized freight carriers deal with picking up and delivering fragile and unpacked items throughout France.
+          </li>
+          <li>We can offer a dedicated carrier service in which the vehicle is solely reserved for the customer.
+          </li>
+          <br>
+        <p>International</p>
+          <li>We can either charter entire trucks or use bulk transport facilities for deliveries throughout Europe. In this case, the merchandise will be packed in crates in order to guarantee the safety and security.
+          </li>
+          <br>
+        <p>Switzerland bulk freight.</p>
+          <li>We regularly arrange bulk freight to Switzerland as well as to border countries around France. In this case, it is not always necessary to go to the expense of packing the items in a crate because we can sufficiently wrap and protect them with suitable material. There are some exceptions, such as chandeliers, that need the extra protection of a crate.
+          </li>"
+
+    specialites:
+      accueil: 'Home'
+      titre: 'Our expertise'
+
+    mentions_legales:
+      accueil: 'Home'
+      titre: 'Mentions Legales'
+      mentions_legales_texte_html: 
+        "Ce site est édité par SHIP ANTIQUES.
+        <br>
+        Société par Actions Simplifiée (SAS) au capital de 23.000 euros, immatriculée au Registre du Commerce et des Sociétés sous le numéro 518 471 180. Établie au 138-140, rue des Rosiers, 93400 SAINT-OUEN (FRANCE).
+        <br>
+        Téléphone : 01.40.12.98.04
+        <br>
+        Hébergeur : OVH, 2 rue Kellermann, 59100 ROUBAIX."
+      donnees_personnelles: "Données personnelles"
+      donnees_personnelles_texte_html: "
+        <h3>LICENCE</h3>
+          <p style='text-align: justify;'>En se connectant au site de Ship Antiques, et de ce seul fait, l’utilisateur reconnaît accepter de la SAS SHIP ANTIQUES, éditrice du site, une licence dont il s´engage à respecter les termes.
+          <br>
+          Le site Ship Antiques ne demande pas d’enregistrement à ses visiteurs, et ne procède à aucun enregistrement nominatif pour la consultation de ses pages.</p>
+
+        <h3>COOKIES</h3>
+          <p style='text-align: justify;'>Le site de Ship Antiques utilise la technique des « cookies » pour une seule et simple raison : Nous aider à mesurer de façon transversale l’activité de nos visiteurs sur le site et nous permettre ainsi de proposer une expérience toujours mieux adaptée aux attentes de nos lecteurs.</p>
+          <h3>DROITS ET DEVOIRS</h3>
+          <p style='text-align: justify;'>Dans tous les cas, l’utilisateur dispose des droits (d’accès et de rectification, notamment) prévus par la loi 78-17 du 6 janvier 1978 dite « Informatique et Libertés ».
+          <br>
+          Pour l’exercice de ses droits, l’utilisateur est invité à s’adresser par courriel <a href='mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#115;&#104;&#105;&#112;&#097;&#110;&#116;&#105;&#113;&#117;&#101;&#115;&#046;&#102;&#114;'>en cliquant ici</a>. Il peut aussi écrire à Ship Antiques, 134-140, rue des Rosiers, 93400 SAINT-OUEN..
+          <br>
+          L’utilisateur trouvera des informations sur ses droits et devoirs et sur la protection des données individuelles sur le site de la Commission Nationale Informatique et Libertés (www.cnil.fr)
+          <br>
+          Les utilisateurs du site de Ship Antiques sont invités à faire connaître à Ship Antiques leurs remarques sur d’éventuels dysfonctionnements du site du point de vue des libertés individuelles.</p>" 
+      conditions_generales: "conditions generales de vente"
+
+    nous_rejoindre:
+      accueil: 'Home'
+      titre: 'Nous Rejoindre'
+      nous_rejoindre_texte_html: "
+        <p style='text-align: justify'>Nous encourageons la prise de responsabilité, l’épanouissement des talents et favorisons l’évolution des carrières au sein de l’entreprise. <p>
+        <p style='text-align: justify'>Rejoindre Ship Antiques, c’est rejoindre une société dynamique, tournée vers l’innovation et offrant des défis motivants. Dans un esprit d’ouverture, de respect, d’initiative, nous vous invitons à venir partager avec nous votre goût des challenges et des succès.</p>
+        <p style='text-align: justify'>Vous pouvez nous adresser votre candidature <a href='mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#115;&#104;&#105;&#112;&#097;&#110;&#116;&#105;&#113;&#117;&#101;&#115;&#046;&#102;&#114;'>en cliquant ici.</a> </p>"
+      nos_annonces: "Nos Annonces"
+
+    home:
+      texte_home_html: "
+        <p class='text-white font-weight-light'>Welcome to Ship Antiques, your partner in collection, packing, transport and customs clearance for your antiques and works of art.</p>
+        <p class='text-white font-weight-light'>Our operational capabilities make the difference.</p>
+        <p class='text-white font-weight-light'>You can meet our professional and dynamic team in stands 24-26, Marché Dauphine fleamarket, in  Saint Ouen. We are open from Monday to Friday 9.30am- 6.00pm, and can be contacted by email everyday or by phone: +33 (1) 40 12 98 04.
+        As experts in the shipment of works of art, antiques and fragile items, our team makes a difference in that specific business.  We believe that inland transportation, packing, and storage are the critical steps in the supply chain, which need careful attention, experience, and a strong ability to adapt to these requirements. These operations are carried out internally and solely by Ship antiques staff. </p>"
+      a_propos_section: 
+        a_propos: "About Us"
+        a_propos_texte_html: "
+          <p style='text-align: justify;'><b><i>SHIP ANTIQUES</i></b> is a company which is specialized in forwarding fragile freights such as antiques and works of art.</p>
+          <p style='text-align: justify;'>Our commercial and administrative office is located in the Saint Ouen flea market near Paris,  the largest market in the world for antiques.</p>
+          <p style='text-align: justify;'>Our dynamic, young and international team are ready to welcome customers from all around the world and give them specific advice  in this atypical and unique environment.</p>
+          <p style='text-align: justify;'>This is where we ensure all operations and the  detailed coordination of the logistics to this kind of merchandise, being close to our customers and suppliers.  Our network of specialized overseas agents  enables us to  export and import items in most countries.</p>
+          <p style='text-align: justify;'>We are open and available 7/7 from 10a.m. to 6p.m. (CET).</p>
+          <p style='text-align: justify;'>We can offer storage and packing services in our secured warehouse near the Roissy Charles de Gaulle airport.</p>
+          <p style='text-align: justify;'>We have our own team of packers and truck drivers who ensure the handling of your fragile valuables.  This means that all these risky operations are securely carrried out internally.</p>" 
+      specialites_section: 
+        nos_specialites: "Our expertise"
+        nos_specialites_text_top: "SHIP ANTIQUES not only specializes in the shipping of antiques and artworks but has also developed specific solutions for their professional and non-professional customers"
+        puces_titre: "Saint Ouen flea market and its specific needs"
+        puces_details: "SHIP ANTIQUES has been located in the heart of the Saint Ouen flea market since it's creation. We are open all week, from 10 A.M. to 6 P.M."
+        boutique_titre: "Boutique Project"
+        boutique_details: "This service is dedicated to professionals such as decorators and exhibition organizers,  in setting up exhibitions or creating shopping chains."
+        foire_titre: "Fairs / exhibitions / museums"
+        foire_details_1: "Fairs: This dedicated service offers the same facilities as for the flea market customers to professionals and antique dealers (French or foreign) present at antiques fairs."
+        foire_details_2: "Exhibitions and museum events: We can give assistance at the major events and exhibitions in France ( Maison et Objet, Biennale des Antiquaires, Paris Art Fair, Asia Now, Paris Photo, PAD, etc…)"
+      
+      clients_section:
+        nos_clients: "Our Clients"
+        galeries_titre: "Fine Art Galleries, Arists,  Antiques Dealers, auctioneers"
+        galeries_details: "Our extensive network of international fine art logistics agents allows us to handle your shipments safely and efficiently to or from almost any major city worldwide. As well as customs clearance, we are able to arrange all other required import/export documentation including CITES (endangered species); Import/Export licenses; ATA Carnet; and Antique Certification."
+        architectes_titre: "Architects, interior designers and decorators"
+        architectes_details: "With a truly global scope we are able to offer clients an exceptional service utilizing our in-depth knowledge, experience, facilities and highly trained technicians thus ensuring the efficient handling of complex projects to high standards."
+        marques_titre: "Luxury brands : stores & special projects"
+        marques_details: "Some of the services that we provide specifically for luxury brands include: Transportation: Local Collections & Deliveries. Inventory Management: update Inventory on request. Storage: High Security, both shared and exclusive-use spaces. Customized packing: In-house crate shop capable of safely packing unique objects of all shapes and sizes. Artwork Installation Teams: White gloves services to safely move and installing delicate artwork and chandeliers. Fully Comprehensive Insurance."
+        particuliers_titre: "Private collectors and nonprofessionals"
+        particuliers_details: "With 10 years of experience, Ship Antiques can manage the most complex international transport of fine art and antiques collections. We provide a full range of packing, crating, installations and transport services and deal with international customs clearance formalities."
+
+      services_section:
+        nos_services: "Our Services"
+        enlevement_titre: "Pick-up, delivery and handling"
+        enlevement_details: "Our experienced team of drivers/packers are perfectly used to manipulating fragile and delicate items."
+        protection_titre: "Protection and packing"
+        protection_details: "All the packing is carried out by our own teams in our warehouse in Roissy, near the Paris airport."
+        stockage_titre: "Storage and management of storage"
+        stockage_details: "We can offer different solutions depending on the nature of the object and the type of packing used. We can even safely and securely store unpacked items."
+        gestion_titre: "Administration management : Documentation, customs and insurance"
+        gestion_details: "With our expertise, we are capable of managing, on behalf of our customers, creating the specific documentation that is needed to accompany the items as they go through the logistic chains."
+        transports_titre: "Multimodal transport"
+        transports_details: "SHIP ANTIQUES can offer a large range of transport solutions which can be chosen depending on the nature of the merchandise, the destination and the volume."
+
   shared:
     _navbar:
-      a_propos_menu: 
-        a_propos: 'about us'
-      services_menu: 
+      a_propos_menu:
+        a_propos: 'About Us'
+        ship_antiques: 'Ship Antiques'
+        nos_specialites: 'Our Expertise'
+        nos_clients: 'Our Clients'
+      services_menu:
         services: 'services'
-      contacts_et_cotations_menu: 
-        contacts_et_cotations: 'contacts & quotes'
-      infos_pratiques_menu: 
-        infos_pratiques: "information"
+        enl_liv_manut: "Pick-up, delivery and handling"
+        protection_emballage: "Protection and packing"
+        stock_et_gestion: "Storage and management of storage"
+        gestion_admin: "Administration management : Documentation, customs and insurance"
+        tpt_multi: "Multimodal Transport"
+      contacts_et_cotations_menu:
+        contacts_et_cotations: 'Contacts & Cotations'
+        demande_cot: 'Demande de Cotation'
+        nous_trouver: "Nous Trouver"
+      infos_pratiques_menu:
+        infos_pratiques: "Useful inform"
+        mentions_legales: "Mentions Légales"
+        nous_rejoindre: "Nous rejoindre"
+        liens_utiles: "Liens Utiles"
+
     _footer: 
-      a_propos: 'About us'
-      a_propos_texte: "13 enthousiastics people."
+      a_propos: 'About Us'
+      a_propos_texte: "Ship Antiques was established in 2009 and is comprised of a small team of  qualified specialists. We can offer packing and transportation solutions for all kinds of items for most destinations.  While we are mainly oriented towards the Asian and United States markets, Ship Antiques is becoming a worldwide reference in the Art market for conveying antiques and valuable furniture."
+      services: 'Services'
+      nos_clients: 'Our Clients'
+      infos_pratiques: "Useful inform"
+      trouvez_nous: "Trouvez-nous sur :"
+    
+    _infos:
+      titre: 'nous trouver'
+      contactez_nous: 'Contact us by Email'
+      demande_devis: 'Quote request'
+      address_1: "SAS (Siège Social)"
+      address_2: "Address"
+      address_3: "138, rue des rosiers, 93400 Saint Ouen"
+      address_4: "Marché Dauphine, stand 24-25-26"
+      phone_1: "Phone"
+      phone_2: "+ 33 1 40 12 98 04"
+      accueil_equipe_html: "You can meet our professional and dynamic team in stands 24-26, Marché Dauphine fleamarket, in  Saint Ouen. We are open from Monday to Friday 9.30am- 6.00pm, and can be contacted by email everyday or by phone."
+      address_depot_1_html: "SAE - SHIP ANTIQUES EMBALLAGE"
+      address_depot_2_html: "Address"
+      address_depot_3_html: "154 allée des érables - BAT A10/11/12"
+      address_depot_4_html: "ZI Paris nord 2"
+      address_depot_5_html: "93420 Villepinte"

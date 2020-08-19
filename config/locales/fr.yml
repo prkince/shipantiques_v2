@@ -7,6 +7,14 @@ fr:
     clients:
       accueil: 'Accueil'
       titre: 'Nos clients'
+      gal_titre: "Galeries d'art, Artistes, antiquaires et les maisons de vente aux encheres"
+      gal_texte: "Notre large reseau d'agents spécialisés nous permet de gerer vos expeditions internationales efficacement et en toute sécurité. Nous pouvons opérés depuis et vers la majorité des principales villes mondiales. En plus des formalités douanieres, nous pouvons  gerer pour vous toutes la documentation specifiques telle que les CITES, licence emport/export, carnet ATA ou autres certificats locaux ou internationaux."
+      archi_titre: "Architectes, architectes d'interieur et decorateurs"
+      archi_texte: "Nous sommes reconnus pour notre expertise et nous pouvons offrir à nos clients professionnels un service d'exception grace à notre experience, nos moyens et nos equipes spécialisés. Nous gerons pour vous tout vos projets complexes et de haut niveau."
+      marques_titre: "Marques de luxe : magasins uniques, projets et evenements spéciaux"
+      marques_texte: "Nous offrons un sercice spécial pour les grandes marques, leurs magasins et les projets spéciaux. Notre 'projet boutique' prend en charge l'essentiel des contraintes de vos projets en termes de logistique incluant egalement un service de source de marchandises. Nous gerons les stocks pour vous et nous occupons de toute la logistique y compris la mise en place et l'installation."
+      particuliers_titre: "Collectionneurs privés et particuliers"
+      particuliers_texte: "Avec plus de dix ans d'experience, SHIP ANTIQUES peux gerer les transports internationaux les plus complexes d'œuvres d'art et de pieces de collections. Nous vous proposons une gamme complete  de service dédiés : enlevement, protection et mise en caisse, solution de transport adaptés à la marchandise. Nous gérons egalement les formalités douanieres."
 
     infos:
       accueil: 'Accueil'
@@ -107,6 +115,10 @@ fr:
           <li>Nous proposons des transports dédiés « spéciaux » ou le camion est consacré entièrement à un client.
           </li>
           <br>
+        <p>International</p>
+          <li>Nous affrétons également des camions complets ou de groupage pour les livraisons à effectuer en route sur l’Europe. La marchandise sera alors mise en caisse pour sécuriser le transport.
+          </li>
+          <br>
         <p>Groupage suisse</p>
           <li>Nous faisons régulièrement des groupages sur la Suisse et nous proposons aussi des camions complets sur toute la France et pays limitrophes. Pour ce type de transport, nous n’avons pas forcement besoins de mettre la marchandise en caisse car elle sera protégée par nos soins avec du matériel adapté (sauf en cas de marchandise très fragile type lustre)
           </li>"
@@ -158,7 +170,7 @@ fr:
       texte_home_html: "
         <p class='text-white font-weight-light'>Bienvenue chez Ship Antiques, votre partenaire pour la collecte, l’emballage, le transport et le dédouanement de vos antiquités et objets d’art.</p>
         <p class='text-white font-weight-light' >Nos capacités opérationnelles font la difference.</p>
-        <p class='text-white font-weight-light'>Notre équipe jeune, professionnelle et dynamique  vous accueille au Marché Dauphine, stand 24/25/26, du vendredi au lundi de 9h30 à 18h00, et tous les jours par email (lien email) ou téléphone au +33 (1) 40 12 98 04.
+        <p class='text-white font-weight-light'>Notre équipe, professionnelle et dynamique  vous accueille au Marché Dauphine, stand 24/25/26, du vendredi au lundi de 9h30 à 18h00, et tous les jours par email (lien email) ou téléphone au +33 (1) 40 12 98 04.
         Specialiste du transport d'œuvres d'art, d'antiquités et d'objets fragiles, c'est sur le terrain que nos equipes font la différence. Transports locaux, emballages, stockage sont les étapes critiques de la chaine logistique dans notre métier. Elle nécessite un soin particulier, de l’expérience et une forte capacité d’adaptation toutes ces opérations sont réalisés en internes par du personnel SHIP ANTIQUES. </p>"
       a_propos_section: 
         a_propos: "A propos"
@@ -201,10 +213,10 @@ fr:
         stockage_titre: "Stockage et gestion de stock"
         stockage_details: "Nous proposons différentes solutions fonction de vos types d’emballages et de produits. Nous pouvons stocker en particulier de la marchandise sans emballage en toute sécurité."
         gestion_titre: "Gestion administrative : documentation, douane et assurances"
-        gestion_details: "Notre expertise nous permet de gérer pour le compte de nos clients les documents d’accompagnements nécessaires au bon déroulement des chaines logistiques."
+        gestion_details: "Notre expertise nous permet de gérer pour le compte de nos clients les documents d’accompagnements nécessaires au bon déroulement des chaines logistiques et particulièrement les passages en douane."
         transports_titre: "Transports Multimodal"
         transports_details: "SHIP ANTIQUES met à disposition de ses clients une large palette de solutions de transport à choisir fonction du type de marchandise, de la destination et du volume."
-
+      
   shared:
     _navbar:
       a_propos_menu:
