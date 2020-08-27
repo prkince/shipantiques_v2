@@ -233,8 +233,8 @@ en:
         tpt_multi: "Multimodal Transport"
       contacts_et_cotations_menu:
         contacts_et_cotations: 'Contacts & Cotations'
-        demande_cot: 'Demande de Cotation'
-        nous_trouver: "Nous Trouver"
+        demande_cot: 'Quote Request'
+        nous_trouver: "Find us"
       infos_pratiques_menu:
         infos_pratiques: "Useful inform"
         mentions_legales: "Mentions Légales"
@@ -247,7 +247,7 @@ en:
       services: 'Services'
       nos_clients: 'Our Clients'
       infos_pratiques: "Useful inform"
-      trouvez_nous: "Trouvez-nous sur :"
+      trouvez_nous: "Find us on:"
     
     _infos:
       titre: 'nous trouver'
