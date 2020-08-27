@@ -265,3 +265,12 @@ en:
       address_depot_3_html: "154 allée des érables - BAT A10/11/12"
       address_depot_4_html: "ZI Paris nord 2"
       address_depot_5_html: "93420 Villepinte"
+
+  devise: 
+    failure:
+      user: 
+        unauthenticated: 'Please enter your credentials'
+        already_authenticated: "You have been successfully connected"
+    sessions:
+      user:
+        signed_out: "You have been successfully disconnected"        

@@ -12,34 +12,46 @@
 
 <div class="site-section" id="section-infos" style="padding-bottom: 0em">
 	<div class="container">
-		<div class="row justify-content-center mb-5" data-aos="fade-up">
-			<div class="col-md-7 text-center border-primary">
-				<h2 class="mb-0 text-color-ship"><%= t '.titre' %></h2>
-				<p></p>
-			</div>
-		</div>
+	  <div class="row align-items-stretch justify-content-center">
 
+			<div class="row justify-content-center mb-5" data-aos="fade-up">
+				<div class="col-md-7 text-center border-primary">
+					<h2 class="mb-0 text-color-ship"><%= t '.conditions_generales'  %></h2>
+					<p></p>
+				</div>
+			</div>
+
+			<div style="width: 82%" data-aos="fade-up">
+				<div class="annonce-ship">
+					<% results = Cloudinary::Api.resources(type:"upload",prefix:"CGV/") %>
+					<% results['resources'].each do |resource| %>
+						<%= cl_image_tag(resource['secure_url'], :crop => :fill) %>
+					<% end %>   
+				</div>
+			</div>
+
+			<div class="row justify-content-center mb-5 mt-5" data-aos="fade-up">
+				<div class="col-md-7 text-center border-primary">
+					<h2 class="mb-0 text-color-ship"><%= t '.titre' %></h2>
+					<p></p>
+				</div>
+			</div>
+			<div class="col-10 mb-4" data-aos="fade-up" data-aos-delay="100">
+				<div class="unit-4 d-flex">
+					<div>
+						<p style="text-align: justify;"><%= t '.mentions_legales_texte_html'  %></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center mb-5" data-aos="fade-up">
+				<div class="col-md-7 text-center border-primary">
+					<h2 class="mb-0 text-color-ship"><%= t ".donnees_personnelles" %></h2>
+					<p></p>
+				</div>
+			</div>
 
 	    <div class="row align-items-stretch justify-content-center">
-
-	      <div class="col-10 mb-4" data-aos="fade-up" data-aos-delay="100">
-	        <div class="unit-4 d-flex">
-	          <div>
-	            <p style="text-align: justify;"><%= t '.mentions_legales_texte_html'  %></p>
-	          </div>
-	        </div>
-	      </div>
-
-		<div class="row justify-content-center mb-5" data-aos="fade-up">
-			<div class="col-md-7 text-center border-primary">
-				<h2 class="mb-0 text-color-ship"><%= t ".donnees_personnelles" %></h2>
-				<p></p>
-			</div>
-		</div>
-
-
-	    <div class="row align-items-stretch justify-content-center">
-
 	      <div class="col-10 mb-4" data-aos="fade-up" data-aos-delay="100">
 	        <div class="unit-4 d-flex">
 	        	<div>
@@ -47,21 +59,6 @@
 	        	</div>
 	        </div>
 	    </div>
-
-		<div class="row justify-content-center mb-5" data-aos="fade-up">
-			<div class="col-md-7 text-center border-primary">
-				<h2 class="mb-0 text-color-ship"><%= t '.conditions_generales'  %></h2>
-				<p></p>
-			</div>
 		</div>
-
-		<div style="width: 82%" data-aos="fade-up">
-		    <div class="annonce-ship">
-		      <% results = Cloudinary::Api.resources(type:"upload",prefix:"CGV/") %>
-		      <% results['resources'].each do |resource| %>
-		        <%= cl_image_tag(resource['secure_url'], :crop => :fill) %>
-		      <%end %>   
-		  	</div>
-	  	</div>
 	</div>
 </div>
