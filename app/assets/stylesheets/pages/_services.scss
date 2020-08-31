@@ -36,7 +36,7 @@
 // Test GD 17/04
 
 .container-specialites-2 {
-  padding: 5rem 2rem 2rem 2rem;
+  padding: 6rem 2rem 2rem 2rem;
   cursor: default;
   .services-description-2 {
     display: flex;
@@ -52,6 +52,11 @@
     .services-description-texte {
       flex: 1;
       padding: 2rem;
+      &__clients {
+        display: flex;
+        text-align: justify;
+        align-items: center;
+      }
       p, li {
         text-align: justify;
       }

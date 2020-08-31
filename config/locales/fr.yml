@@ -126,7 +126,42 @@ fr:
     specialites:
       accueil: 'Accueil'
       titre: 'Nos specialités'
-
+      sous_titre: 'En plus de sa spécialité antiquités et œuvres d’art, SHIP ANTIQUES a développé des solutions spécifiques pour ses clients particuliers et professionnels adaptés à leurs besoins.'
+      puces_titre: 'Puces de St Ouen, les services dédiés'
+      puces_texte_html: "
+        <p>SHIP ANTIQUES est au cœur des puces de St Ouen depuis son origine. Nous sommes ouvert 7 jours sur 7 de 10H à 18H.</p>
+        <p>Nous sommes à la disposition de nos clients, marchands et acheteurs, tous les weekends d’ouverture.</p>
+        <h5>Accueil client – accompagnement</h5>
+        <h5>Buying book et paiement pour</h5>
+        <h5>Gestion administrative – préparation documentaire</h5>
+        <p>Dans le but de faciliter l’acte d’achat des clients étrangers qui viennent au Marché aux Puces le week-end, nous leur proposons un carnet d’achat appelé « BUYING BOOK » leur permettant de réserver les marchandise chez tous les marchands sans payer à chaque fois.</p>
+        <p>Une fois leurs achats terminés, les clients laissent un acompte à Ship Antiques pour bloquer la marchandise le temps de nous envoyer un virement bancaire.</p>
+        <p>Une fois le solde reçu, nous enlevons les précieux objets  achetés par les clients et payons les marchands par chèque bancaire.</p>
+        <p>Nous préparons toute la documentation, récupérons les factures originales et préparons tous les documents nécessaires au bon déroulement des opérations.</p>"
+      boutiques_titre: "Projet Boutique"
+      boutiques_texte_html: "
+        <p>Ce service, est dédié aux professionnels de la décoration : décorateurs, entreprises développant des réseaux de boutiques ou spécialisé dans l’évènementiel et les projets.</p>
+        <p>Cette solution permet à nos clients pro de se libérer des contraintes logistique et administrative de leurs projets et de faciliter toutes étapes intermédiaires de la gestion du projet.</p>
+        <p>SHIP ANTIQUES met à votre disposition ses ressources et un interlocuteur unique en charge du projet qui vous assistera tout au long du projet :</p>
+        <ol>
+          <li>Aide à la recherche de sources et de produits.</li>
+          <li>Gestion de la relation avec les sources, gestion administrative, paiement pour votre compte.</li>
+          <li>Mise à disposition de notre réseaux de professionnels du secteur (restaurateurs, ébéniste, tapissier, vernisseurs, etc.).</li>
+          <li>Gestion des transports et des mesures préliminaires.</li>
+          <li>Gestion de stock au quotidien.</li>
+          <li>Prises de photos, préparation et présentation (dans nos locaux ou autre).</li>
+          <li>Emballage, transport, livraison et installation complète en France ou à l’étranger.</li>
+          <li>Gestion du retour des marchandises, remise en stock ou préparation à la revente.</li>
+        </ol>"
+      foires_titre: "Foires / Expositions / Musées"
+      foires_texte_html: "
+        <h5>Foires</h5>
+        <p>Service destiné aux professionnels, antiquaires français ou étrangers, nous proposons les mêmes solutions que pour les puces à nos clients sur les foires d’antiquités.</p>
+        <p>Nous mettons à disposition notre « buying book » et nous nous chargeons du paiement et de la collecte des objets. Tous les produits sont ensuite groupés et acheminés vers nos entrepôt pour y être emballés et expédiés.</p>
+        <h5>Expositions, evenements musées</h5>
+        <p>Nous sommes présents sur les principales expositions et évènements français. (maison et objet, biennale des antiquaires, paris art fair, asia now, paris photo, PAD, etc.)</p>
+        <p>Nous proposons un service clé en main, efficace et sécurisé, pour les antiquaires, galeries d’art française ou étrangère. Nos équipes spécialisés vous accompagnent et gère les contraintes logistique (transport, déballage, accrochage et installation) et les contraintes administratives (douane temporaire et mise à la consommation en cas de vente sur l’évènement) toujours dans le respect des délais.</p>"
+    
     mentions_legales:
       accueil: 'Accueil'
       titre: 'Mentions Legales'

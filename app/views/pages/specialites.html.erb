@@ -10,92 +10,90 @@
   </div>
 </div>
 
-<div class="site-section bg-light pb-0" id="section-specialites">
+<div class="site-section pb-0" id="section-specialites">
   <div class="container pb-5">
+    <div class="row justify-content-center mb-5" data-aos="fade-up">
+      <div class="col-md-9 text-center border-primary">
+        <p class="color-black-opacity-5"><%= t '.sous_titre' %></p>
+      </div>
+    </div>
+    <div id="specialites-puces">
+      <div class="container-specialites-2">
+        <div class="row justify-content-center mb-5" data-aos="fade-up">
+          <div class="col-md-9 text-center border-primary">
+            <h2 class="text-color-ship"><%= t ".puces_titre" %></h2>
+            <p class="color-black-opacity-5"></p>
+          </div>
+        </div>
 
-    <div class="row justify-content-center" data-aos="fade-up">
-      <div class="col-md-7 text-center border-primary">
-        <p class="color-black-opacity-5">En plus de sa spécialité antiquités et œuvres d’art, SHIP ANTIQUES a développé des solutions spécifiques pour ses clients particuliers et professionnels adaptés à leurs besoins.</p>
+        <div class="row align-items-stretch justify-content-center">
+          <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
+            <div class="services-description-2">
+              <div class="services-description-image">  
+                <%= image_tag('blog_1.jpg')%>
+              </div>
+              <div class="services-description-texte">
+                <%= t '.puces_texte_html' %>         
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+
+    </div>
+
+    <div id="specialites-boutique">
+
+      <div class="container-specialites-2">
+
+        <div class="row justify-content-center mb-5" data-aos="fade-up">
+          <div class="col-md-9 text-center border-primary">
+            <h2 class="text-color-ship"><%= t ".boutiques_titre" %></h2>
+            <p class="color-black-opacity-5"></p>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch justify-content-center">
+          <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
+              <div class="services-description-2" id="services-description-2-reverse">
+                <div class="services-description-texte">            
+                  <%= t '.boutiques_texte_html'  %>
+                </div>
+                <div class="services-description-image">  
+                  <%= image_tag('blog_2.jpg')%>
+                </div>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="row align-items-stretch justify-content-center">
+    <div id="specialites-foires">
+      <div class="container-specialites-2">
 
-      <div class="col-12 specialites-top" data-aos="fade-up" data-aos-delay="100" id="specialites-puces">
-        <div class="unit-4 d-flex">
-          <div class="unit-4-icon mr-4"><i class="fas fa-store-alt text-color-ship"></i></div>
-          <div>
-            <h3>Puces de st ouen, les services dédiés</h3>
-            <p style="text-align: justify;">SHIP ANTIQUES est au cœur des puces de St Ouen depuis son origine. Nous sommes ouvert 7 jours sur 7 de 10H à 18H. 
-              <br>
-            Nous sommes à la disposition de nos clients, marchands et acheteurs, tous les weekends d’ouverture.
-            <br> 
-            Accueil client – accompagnement
-            <br>
-            Buying book et paiement pour
-            <br>
-            Gestion administrative – préparation documentaire
-            <br>
-            Dans le but de faciliter l’acte d’achat des clients étrangers qui viennent au Marché aux Puces le week-end, nous leur proposons un carnet d’achat appelé « BUYING BOOK » leur permettant de réserver les marchandise chez tous les marchands sans payer à chaque fois.
-            <br>
-            Une fois leurs achats terminés, les clients laissent un acompte à Ship Antiques pour bloquer la marchandise le temps de nous envoyer un virement bancaire.
-            <br>
-            Une fois le solde reçu, nous enlevons les précieux objets  achetés par les clients et payons les marchands par chèque bancaire.
-            <br>
-            Nous préparons toute la documentation, récupérons les factures originales et préparons tous les documents nécessaires au bon déroulement des opérations.</p>
+        <div class="row justify-content-center mb-5" data-aos="fade-up">
+          <div class="col-md-9 text-center border-primary">
+            <h2 class="text-color-ship"><%= t '.foires_titre'  %></h2>
+            <p class="color-black-opacity-5"></p>
           </div>
         </div>
-      </div>
 
-      <div class="col-12 specialites-top" data-aos="fade-up" data-aos-delay="200" id="specialites-boutique">
-        <div class="unit-4 d-flex">
-          <div class="unit-4-icon mr-4"><i class="fas fa-store text-color-ship"></i></div>
-          <div>
-            <h3>Projet boutique</h3>
-            <p style="text-align: justify;">Ce service, est dédié aux professionnels de la décoration : décorateurs, entreprises développant des réseaux de boutiques ou spécialisé dans l’évènementiel et les projets.
-            <br>
-            Cette solution permet à nos clients pro de se libérer des contraintes logistique et administrative de leurs projets et de faciliter toutes étapes intermédiaires de la gestion du projet.
-            <br>
-            SHIP ANTIQUES met à votre disposition ses ressources et un interlocuteur unique en charge du projet qui vous assistera tout au long du projet :
-            <ul>
-              <li>Aide à la recherche de sources et de produits</li>
-              <li>Gestion de la relation avec les sources, gestion administrative, paiement pour votre compte</li>
-              <li>Mise à disposition de notre réseaux de professionnels du secteur (restaurateurs, ébéniste, tapissier, vernisseurs, etc.)</li>
-              <li>Gestion des transports et des mesures préliminaires</li>
-              <li>Gestion de stock au quotidien</li>
-              <li>Prises de photos, préparation et présentation (dans nos locaux ou autre)</li>
-              <li>Emballage, transport, livraison et installation complète en France ou à l’étranger.</li>
-              <li>Gestion du retour des marchandises, remise en stock ou préparation à la revente.</li>
-            </ul>
+        <div class="row align-items-stretch justify-content-center">
 
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 specialites-top pb-10" data-aos="fade-up" data-aos-delay="300" id="specialites-foires">
-        <div class="unit-4 d-flex">
-          <div class="unit-4-icon mr-4"><i class="fas fa-globe-europe text-color-ship"></i></div>
-          <div>
-            <h3>Foires / Expositions / Musées</h3>
-            <div style="text-align: justify;">
-              <p>Foires</p>
-              <ul>
-                <li>Service destiné aux professionnels, antiquaires français ou étrangers, nous proposons les mêmes solutions que pour les puces à nos clients sur les foires d’antiquités.
-                </li>
-                <li>Nous mettons à disposition notre « buying book » et nous nous chargeons du paiement et de la collecte des objets. Tous les produits sont ensuite groupés et acheminés vers nos entrepôt pour y être emballés et expédiés.
-                </li>
-              </ul>
-              <p>Expositions, Evenements musées</p>
-              <ul>
-                <li>Nous sommes présents sur les principales expositions et évènements français. (maison et objet, biennale des antiquaires, paris art fair, asia now, paris photo, PAD, etc.)
-                </li>
-                <li>Nous proposons un service clé en main, efficace et sécurisé, pour les antiquaires, galeries d’art française ou étrangère. Nos équipes spécialisés vous accompagnent et gère les contraintes logistique (transport, déballage, accrochage et installation) et les contraintes administratives (douane temporaire et mise à la consommation en cas de vente sur l’évènement) toujours dans le respect des délais.
-                </li>
-              </ul>
+          <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
+            <div class="services-description-2">
+              <div class="services-description-image">  
+                <%= image_tag('blog_1.jpg')%>
+              </div>
+              <div class="services-description-texte">
+                <%= t '.foires_texte_html'  %>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
+    
+  </div>
 </div>

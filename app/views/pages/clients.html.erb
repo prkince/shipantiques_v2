@@ -14,72 +14,108 @@
 <div class="site-section bg-light pb-0" id="section-specialites">
   <div class="container pb-5">
 
-    <div class="row align-items-stretch justify-content-center">
-
-      <div class="col-12 specialites-top" data-aos="fade-up" data-aos-delay="100" id="clients-antiquaires">
-        <div class="client-page">
-          <div class="how-it-work-item how-it-work-center">
-            <div class="how-it-work-border">
-            	<span class="number">1</span>
-            </div>
-          </div>
-          <div class="how-it-work-body ml-4">
-            <h3><%= t '.gal_titre' %></h3>
-            <h3></h3>
-            <p style="text-align: justify;">
-              <%= t '.gal_texte' %> 
-            </p>
+    <div id="clients-antiquaires">
+      <div class="container-specialites-2">
+        <div class="row justify-content-center mb-5" data-aos="fade-up">
+          <div class="col-md-9 text-center border-primary">
+            <h2 class="text-color-ship"><%= t ".gal_titre" %></h2>
+            <p class="color-black-opacity-5"></p>
           </div>
         </div>
-      </div>
 
-      <div class="col-12 specialites-top" data-aos="fade-up" data-aos-delay="200" id="clients-decorateurs">
-        <div class="client-page">
-          <div class="how-it-work-item how-it-work-center">
-            <div class="how-it-work-border">
-              <span class="number">2</span>
+        <div class="row align-items-stretch justify-content-center">
+          <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
+            <div class="services-description-2">
+              <div class="services-description-image">  
+                <%= image_tag('blog_1.jpg')%>
+              </div>
+              <div class="services-description-texte services-description-texte__clients">
+                <%= t '.gal_texte' %>         
+              </div>
             </div>
           </div>
-          <div class="how-it-work-body ml-4">
-            <h3><%= t '.archi_titre' %> </h3>
-            <p style="text-align: justify;">
-              <%= t '.archi_texte' %>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 specialites-top" data-aos="fade-up" data-aos-delay="300" id="clients-luxe">
-        <div class="client-page">
-          <div class="how-it-work-item how-it-work-center">
-            <div class="how-it-work-border">
-              <span class="number">3</span>
-            </div>
-          </div>
-          <div class="how-it-work-body ml-4">
-            <h3><%= t '.marques_titre' %></h3>
-            <p style="text-align: justify;">
-              <%= t '.marques_texte' %>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 specialites-top" data-aos="fade-up" data-aos-delay="200" id="clients-particuliers">
-        <div class="client-page">
-          <div class="how-it-work-item how-it-work-center">
-            <div class="how-it-work-border">
-              <span class="number">4</span>
-            </div>
-          </div>
-          <div class="how-it-work-body ml-4">
-            <h3><%= t '.particuliers_titre' %></h3>
-            <p style="text-align: justify;">
-              <%= t '.particuliers_texte' %>            	
-            </p>
-          </div>
-        </div>
+        </div>    
       </div>
 
     </div>
+
+    <div id="clients-decorateurs">
+
+      <div class="container-specialites-2">
+
+        <div class="row justify-content-center mb-5" data-aos="fade-up">
+          <div class="col-md-9 text-center border-primary">
+            <h2 class="text-color-ship"><%= t ".archi_titre" %></h2>
+            <p class="color-black-opacity-5"></p>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch justify-content-center">
+          <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
+              <div class="services-description-2" id="services-description-2-reverse">
+                <div class="services-description-texte services-description-texte__clients">            
+                  <%= t '.archi_texte'  %>
+                </div>
+                <div class="services-description-image">  
+                  <%= image_tag('blog_2.jpg')%>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="clients-luxe">
+      <div class="container-specialites-2">
+
+        <div class="row justify-content-center mb-5" data-aos="fade-up">
+          <div class="col-md-9 text-center border-primary">
+            <h2 class="text-color-ship"><%= t '.marques_titre'  %></h2>
+            <p class="color-black-opacity-5"></p>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch justify-content-center">
+
+          <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
+            <div class="services-description-2">
+              <div class="services-description-image">  
+                <%= image_tag('blog_1.jpg')%>
+              </div>
+              <div class="services-description-texte services-description-texte__clients">
+                <%= t '.marques_texte'  %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="clients-particuliers">
+
+      <div class="container-specialites-2">
+
+        <div class="row justify-content-center mb-5" data-aos="fade-up">
+          <div class="col-md-9 text-center border-primary">
+            <h2 class="text-color-ship"><%= t ".particuliers_titre" %></h2>
+            <p class="color-black-opacity-5"></p>
+          </div>
+        </div>
+
+        <div class="row align-items-stretch justify-content-center">
+          <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
+              <div class="services-description-2" id="services-description-2-reverse">
+                <div class="services-description-texte services-description-texte__clients">            
+                  <%= t '.particuliers_texte'  %>
+                </div>
+                <div class="services-description-image">  
+                  <%= image_tag('blog_2.jpg')%>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </div>

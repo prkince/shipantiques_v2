@@ -17,6 +17,9 @@
       <div class="container-specialites-2">
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
+            <div class="unit-4-icon" id="logo-specialite">
+              <i class="fas fa-people-carry" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px; margin: 1rem 0rem 2rem 0rem"></i>
+            </div>
             <h2 class="text-color-ship"><%= t ".enl_liv_manut_titre" %></h2>
             <p class="color-black-opacity-5"></p>
           </div>
@@ -44,6 +47,9 @@
 
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
+            <div class="unit-4-icon" id="logo-specialite logo-specialite__services">
+              <i class="fas fa-box-open" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px; margin: 1rem 0rem 2rem 0rem"></i>
+            </div>          
             <h2 class="text-color-ship"><%= t ".protection_emballage_titre" %></h2>
             <p class="color-black-opacity-5"></p>
           </div>
@@ -69,6 +75,9 @@
 
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
+            <div class="unit-4-icon" id="logo-specialite logo-specialite__services">
+              <i class="fas fa-boxes" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px; margin: 1rem 0rem 2rem 0rem"></i>
+            </div>
             <h2 class="text-color-ship"><%= t '.stock_et_gestion_titre'  %></h2>
             <p class="color-black-opacity-5"></p>
           </div>
@@ -96,14 +105,15 @@
 
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
+            <div class="unit-4-icon" id="logo-specialite logo-specialite__services">
+              <i class="fas fa-user-shield" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px; margin: 1rem 0rem 2rem 0rem"></i>
+            </div>          
             <h2 class="text-color-ship"><%= t '.gestion_admin_titre' %></h2>
             <p class="color-black-opacity-5"></p>
           </div>
         </div>
 
         <div class="row align-items-stretch justify-content-center">
-
-
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
             <div class="unit-4 d-flex">
               <div>
@@ -114,33 +124,33 @@
 
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
             <div class="services-description-2">
-              <div class="services-description-image">  
-                <%= image_tag('blog_1.jpg')%>
-              </div>
               <div class="services-description-texte">
                 <%= t '.gestion_admin_texte_documentation_html'  %>
+              </div>
+              <div class="services-description-image">  
+                <%= image_tag('blog_1.jpg')%>
               </div>
             </div>
           </div>
 
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="100">
               <div class="services-description-2" id="services-description-2-reverse">
-                <div class="services-description-texte">
-                  <%= t '.gestion_admin_texte_douane_html'  %>
-                </div>
                 <div class="services-description-image">  
                   <%= image_tag('blog_3.jpg')%>
+                </div>
+                <div class="services-description-texte">
+                  <%= t '.gestion_admin_texte_douane_html'  %>
                 </div>
               </div>
           </div>
 
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="300">
             <div class="services-description-2">
-              <div class="services-description-image">  
-                <%= image_tag('blog_1.jpg')%>
-              </div>
               <div class="services-description-texte">
                 <%= t '.gestion_admin_texte_assurance_html'  %>
+              </div>
+              <div class="services-description-image">  
+                <%= image_tag('blog_1.jpg')%>
               </div>
             </div>
           </div>
@@ -154,6 +164,19 @@
 
         <div class="row justify-content-center mb-5" data-aos="fade-up">
           <div class="col-md-9 text-center border-primary">
+            <div id="services-card">
+              <div class="services-multimodals">
+                <div class="unit-4-icon" id="logo-specialite logo-specialite__services">
+                  <i class="fas fa-plane" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px"></i>
+                </div>
+                <div class="unit-4-icon" id="logo-specialite logo-specialite__services">
+                  <i class="fas fa-ship" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px"></i>
+                </div>
+                <div class="unit-4-icon" id="logo-specialite logo-specialite__services">
+                  <i class="fas fa-truck" style="font-size: 2.5rem; color: #2F98F3!important; width: 49px"></i>
+                </div>
+              </div>          
+            </div>
             <h2 class="text-color-ship"><%= t '.tpt_multi_titre' %></h2>
             <p class="color-black-opacity-5"><%= t '.tpt_multi_sous_titre' %></p>
           </div>
@@ -163,33 +186,33 @@
 
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="200">
             <div class="services-description-2" id="services-description-2-reverse">
-              <div class="services-description-texte">
-                <%= t '.tpt_multi_tpt_maritime_html'  %>
-              </div>
               <div class="services-description-image">  
                 <%= image_tag('blog_1.jpg')%>
+              </div>
+              <div class="services-description-texte">
+                <%= t '.tpt_multi_tpt_maritime_html'  %>
               </div>
             </div>
           </div>
 
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="100">
             <div class="services-description-2">
-              <div class="services-description-image">  
-                <%= image_tag('blog_2.jpg')%>
-              </div>
               <div class="services-description-texte">
                 <%= t '.tpt_multi_tpt_aerien_html'  %>
+              </div>
+              <div class="services-description-image">  
+                <%= image_tag('blog_2.jpg')%>
               </div>
             </div>
           </div>
 
           <div class="col-12 mb-10 mb-lg-10" data-aos="fade-up" data-aos-delay="300">
             <div class="services-description-2" id="services-description-2-reverse">
-              <div class="services-description-texte">
-                <%= t '.tpt_multi_tpt_routier_html'  %>
-              </div>
               <div class="services-description-image">  
                 <%= image_tag('blog_1.jpg')%>
+              </div>
+              <div class="services-description-texte">
+                <%= t '.tpt_multi_tpt_routier_html'  %>
               </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ en:
     clients:
       accueil: 'Home'
       titre: 'Our clients'
-      gal_titre: "Fine Art Galleries, Arists,  Antiques Dealers, auctioneers"
+      gal_titre: "Fine Art Galleries, Artists,  Antiques Dealers, auctioneers"
       gal_texte: "Our extensive network of international fine art logistics agents allows us to handle your shipments safely and efficiently to or from almost any major city worldwide. As well as customs clearance, we are able to arrange all other required import/export documentation including CITES (endangered species); Import/Export licenses; ATA Carnet; and Antique Certification."
       archi_titre: "Architects, interior designers and decorators"
       archi_texte: "With a truly global scope we are able to offer clients an exceptional service utilizing our in-depth knowledge, experience, facilities and highly trained technicians thus ensuring the efficient handling of complex projects to high standards."
@@ -126,7 +126,42 @@ en:
     specialites:
       accueil: 'Home'
       titre: 'Our expertise'
-
+      sous_titre: 'SHIP ANTIQUES not only specializes in the shipping of antiques and artworks but has also developed specific solutions for their professional and non-professional customers.'
+      puces_titre: 'Saint Ouen flea market and its specific needs'
+      puces_texte_html: "
+        <p>SHIP ANTIQUES has been located in the heart of the Saint Ouen flea market since it's creation. We are open all week, from 10 A.M. to 6 P.M.</p>
+        <p>We are available to our customers, merchants, and buyers every weekend.</p>
+        <h5>Customer reception and assistance</h5>
+        <h5>'Buying book' and pre-payment facility</h5>
+        <h5>Administrative management - Preparation of documents</h5>
+        <p>In order to assist foreign customers in buying from the flea market, we can offer the facility of a 'Buying Book'. This allows them to reserve objects and items in the merchants' shops, without the need to pay immediately.</p>
+        <p>Once the items have been reserved, customers leave a deposit at the SHIP ANTIQUES office in order to confirm the reservation, which leaves time to arrange a bank transfer.</p>
+        <p>Once the bank transfer has been received, SHIP ANTIQUES proceeds with the collection of the reserved items and pay the trader by cheque.</p>
+        <p>We collect all the necessary documents, original invoices and prepare all the necessary formalities for a safe and secure transport of the items.</p>"
+      boutiques_titre: "Boutique Project"
+      boutiques_texte_html: "
+        <p>This service is dedicated to professionals such as decorators and exhibition organizers,  in setting up exhibitions or creating shopping chains.</p>
+        <p>This solution helps our professional customers by relieving them of the logistic and administrative tasks of their projects. This allows them to fully concentrate their talents on their project.</p>
+        <p>SHIP ANTIQUES can offer their resources and will dedicate a unique project leader in order to give full support during the project :</p>
+        <ol>
+          <li>Assistance in finding sources and products</li>
+          <li>Management of relations with sources, administrative management, payment on customer's behalf…</li>
+          <li>Availability of our network of professionals in the domain (restorers, cabinetmakers, upholsterers, etc…</li>
+          <li>Transport management and preliminary measures</li>
+          <li>Daily inventory</li>
+          <li>Photography, preparation and presentation (in our offices or elsewhere)</li>
+          <li>Packing, transport delivery and complete installation in France or in other countries</li>
+          <li>Management of goods returns, return to stock or preparation for resale.</li>
+        </ol>"
+      foires_titre: "Fairs / Exhibitions / Museums"
+      foires_texte_html: "
+        <h5>Fairs</h5>
+        <p>This dedicated service offers the same facilities as for the flea market customers to professionals and antique dealers (French or foreign) present at antiques fairs.</p>
+        <p>We can set up a 'Buying book' for professional customers and ensure the payment and transport of reserved items. All the collected items are then grouped together and brought back to our warehouse for packing and dispatch.</p>
+        <h5>Exhibitions and museum events</h5>
+        <p>We can give assistance at the major events and exhibitions in France ( Maison et Objet, Biennale des Antiquaires, Paris Art Fair, Asia Now, Paris Photo, PAD, etc…)</p>
+        <p>We can offer a safe and secure turnkey solution to antique dealers as well as to French and foreign art galleries. Our specialists can give support and manage logistic tasks (transport, unpacking, hanging artwork, and installation) and administrative formalities (temporary Customs import with eventually change to full import in case of sale at the event) with respect to the time schedule.</p>"
+    
     mentions_legales:
       accueil: 'Home'
       titre: 'Mentions Legales'
