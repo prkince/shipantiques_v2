@@ -8,7 +8,7 @@
       </div>
 
       <div class="footer-2">
-        <h2 class="footer-heading mb-4">Liens</h2>
+        <h2 class="footer-heading mb-4"><%= t 'shared._footer.links' %></h2>
         <ul class="list-unstyled">
           <li><%= link_to t('shared._footer.a_propos'), root_path(:anchor => "section-about") %></li>
           <li><%= link_to t('shared._footer.services'), services_path %> </li>
@@ -18,7 +18,7 @@
       </div>
 
       <div class="footer-3">
-        <h2 class="footer-heading mb-4"> <%= t 'shared._footer.trouvez-nous' %></h2>
+        <h2 class="footer-heading mb-4"> <%= t 'shared._footer.trouvez_nous' %></h2>
         <%= link_to cl_image_tag("https://res.cloudinary.com/shipantiques/image/upload/v1580912404/images-site/facebook-logo_k5olqk.png"), "https://www.facebook.com/SHIP-ANTIQUES-168465044114/", alt: 'facebook-logo', target: '_blank' %>
         <br>
         <%= link_to cl_image_tag("https://res.cloudinary.com/shipantiques/image/upload/v1580912405/images-site/linkedin-logo_dcnvqx.png"), "https://fr.linkedin.com/company/ship-antiques", alt: 'linkedin-logo', target: '_blank' %>

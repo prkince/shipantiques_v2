@@ -279,13 +279,14 @@ en:
     _footer: 
       a_propos: 'About Us'
       a_propos_texte: "Ship Antiques was established in 2009 and is comprised of a small team of  qualified specialists. We can offer packing and transportation solutions for all kinds of items for most destinations.  While we are mainly oriented towards the Asian and United States markets, Ship Antiques is becoming a worldwide reference in the Art market for conveying antiques and valuable furniture."
+      links: 'Links'
       services: 'Services'
       nos_clients: 'Our Clients'
       infos_pratiques: "Useful inform"
       trouvez_nous: "Find us on:"
     
     _infos:
-      titre: 'nous trouver'
+      titre: 'find us'
       contactez_nous: 'Contact us by Email'
       demande_devis: 'Quote request'
       address_1: "SAS (Siège Social)"
