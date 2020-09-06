@@ -1,6 +1,6 @@
-require("@rails/ujs").start()
-require("@rails/activestorage").start()
-require("channels")
+require('@rails/ujs').start()
+require('@rails/activestorage').start()
+require('channels')
 
 //= require jquery
 //= require jquery_ujs
@@ -18,8 +18,7 @@ AOS.init({
  });
 
 
-import { siteMenuClone, scrollWindow, OnePageNavigation } from '../components/navbar';
+import { siteMenuClone, scrollWindow } from '../components/navbar';
+import '../components/cookies';
 siteMenuClone();
 scrollWindow();
-//OnePageNavigation();
-

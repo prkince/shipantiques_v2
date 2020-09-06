@@ -301,6 +301,12 @@ fr:
       address_depot_3_html: "154 allée des érables - BAT A10/11/12"
       address_depot_4_html: "ZI Paris nord 2"
       address_depot_5_html: "93420 Villepinte"
+
+    _cookies:
+      content: "En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés à vos centres d'intérêt."
+      link: "En savoir plus"
+      close: "Fermer"
+
   devise: 
     failure:
       user: 

@@ -7,7 +7,6 @@
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
-    <!--     stylesheet_pack_tag 'application', media: 'all' -->
 
     <!-- Google result text-->
     <title>Ship Antiques, French packer and shipper of Fine Arts and Antiques</title>
@@ -46,6 +45,7 @@
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
     <%= yield %>
+    <%= render 'shared/cookies' %>
     <%= render 'shared/footer' %>
     
     <%= javascript_pack_tag 'application' %>

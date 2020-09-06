@@ -30,15 +30,13 @@ let siteMenuClone = function() {
 
   }, 1000);
 
-  $('body').on('click', '.arrow-collapse', function(e) {
+  $('body').on('click', '.arrow-collapse', function() {
     let $this = $(this);
     if ( $this.closest('li').find('.collapse').hasClass('show') ) {
       $this.removeClass('active');
     } else {
       $this.addClass('active');
     }
-    // e.preventDefault();
-
   });
 
   $(window).resize(function() {
@@ -52,9 +50,8 @@ let siteMenuClone = function() {
     }
   })
 
-  $('body').on('click', '.js-menu-toggle', function(e) {
+  $('body').on('click', '.js-menu-toggle', function() {
     let $this = $(this);
-    // e.preventDefault();
 
     if ( $('body').hasClass('offcanvas-menu') ) {
       $('body').removeClass('offcanvas-menu');
@@ -65,9 +62,9 @@ let siteMenuClone = function() {
     }
   })
 
-  // click outisde offcanvas
+  // click outside of canvas
   $(document).mouseup(function(e) {
-    let container = $(".site-mobile-menu");
+    const container = $(".site-mobile-menu");
     if (!container.is(e.target) && container.has(e.target).length === 0) {
       if ( $('body').hasClass('offcanvas-menu') ) {
         $('body').removeClass('offcanvas-menu');
@@ -75,7 +72,6 @@ let siteMenuClone = function() {
     }
   });
 };
-
 
 // scroll
 let scrollWindow = function() {
@@ -101,7 +97,7 @@ let scrollWindow = function() {
         navbar.removeClass('scrolled sleep');
       }
     }
-    if ( st > 350 ) {
+    if (st > 350) {
       if ( !navbar.hasClass('awake') ) {
         navbar.addClass('awake');
       }
@@ -122,25 +118,4 @@ let scrollWindow = function() {
   });
 };
 
-
-// navigation
-let OnePageNavigation = function() {
-  let navToggler = $('.site-menu-toggle');
-  $("body").on("click", "#site-navbar .site-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a", function(e) {
-    // e.preventDefault();
-    let hash = this.hash;
-
-      $('html, body').animate({
-
-        scrollTop: $(hash).offset().top
-      }, 400, 'easeInOutExpo', function(){
-        window.location.hash = hash;
-      });
-
-  });
-
-  $('body').on('activate.bs.scrollspy', function () {
-  })
-};
-
-export { siteMenuClone, scrollWindow, OnePageNavigation };
+export { siteMenuClone, scrollWindow };
